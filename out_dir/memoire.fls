@@ -1,8 +1,8 @@
-PWD c:/Users/arth4/OneDrive/Documents/A-Unif 5/Memoire/Thèse
+PWD c:/Users/arth4/OneDrive/Documents/A-Unif 5/Memoire/Thesis-clone/Memoir
 INPUT c:/texlive/2025/texmf.cnf
 INPUT c:/texlive/2025/texmf-dist/web2c/texmf.cnf
 INPUT c:/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT c:/Users/arth4/OneDrive/Documents/A-Unif 5/Memoire/Thèse/memoire.tex
+INPUT c:/Users/arth4/OneDrive/Documents/A-Unif 5/Memoire/Thesis-clone/Memoir/memoire.tex
 OUTPUT out_dir/memoire.log
 INPUT c:/texlive/2025/texmf-dist/tex/latex/base/report.cls
 INPUT c:/texlive/2025/texmf-dist/tex/latex/base/report.cls
