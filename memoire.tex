@@ -119,21 +119,16 @@ Citations temporaires pour que tout apparaisse dans la bibliographie :
 
 \chapter{A simplified parton evolution}
 
-In this section, we will show how to numerically compute PDFs and TMDs with a parton 
+In this section, we will show how to numerically compute PDFs and obtain transverse momentum 
+distributions with a parton 
 branching method, with a very simplified framework, taken from the exercises adjoining \cite{hj_lect}. 
 Even if this implementation is far less sophisticated than the one this thesis is focused on, it 
 already holds many of its key points, and will allow us, by fiddling with its parameters, to 
-investigate its behavior and reveal points of interest to keep in mind for the full implementation. \\
+investigate its behaviour and reveal points of interest to keep in mind for the full implementation. \\
 \textit{\textbf{Note : }This is the reason why completing the exercises from \cite{hj_lect} was the first step of 
 my assignment. The parton evolution presented here is a slight variation of exercise 3 of these 
 lectures. I used \cite{hj_lect} and \cite{Lelek} as a guide to complete it.}\\
-We won't refer to the literature here, mainly because 
-this toy framework will most certainly not produce accurate results with respect to experimental data. 
-Still, it shouldn't be too far off, and we might have considered using some established results in 
-order to have a qualitative idea of what to expect. Nevertheless, the following plots will be discussed here with 
-no \textit{a priori}, as a first exposure to the parton branching method. The commentaries in this chapter 
-are more destined to help build a picture and gather ideas than to describe rigorously quantitative 
-properties.
+
 
     \section{Implementation}
 
@@ -664,10 +659,59 @@ properties.
 
     Angular ordering is a better choice, because it correctly compensates its 
     sensitivity to the amount of splittings with its $z_i$ dependence. We will 
-    see in the next chapter the physical explanation for this.\\
+    see in the next chapter another physical argument that could have helped guess 
+    its suitability.\\
 
-    Comparer avec des distributions initiales réalistes ?
+    Of course, the model used here is too simple to yield physically accurate results. 
+    It is nonetheless interesting to see how far (or how close) we got. Here is a comparison 
+    of our toy model with PDFs produced with QCDNUM, both starting with the following
+    realistic parton distributions 
+
+    \begingroup
+    \allowdisplaybreaks
+    \begin{align}
+      \text{gluons : }\quad & xf(x, \mu_0^2) = 1.7\, x^{-0.1} (1-x)^5 \\
+      \text{down (valence) : }\quad & xf(x, \mu_0^2) = 3.064320\, x^{0.8} (1-x)^4 \\
+      \text{down (sea) : }\quad & xf(x, \mu_0^2) = 0.1939875\, x^{-0.1} (1-x)^6 \\
+    \end{align}
+    \endgroup
     
+    evolved from $\mu_0^2 = 2 \text{GeV}^2$ and evolved to $\mu_f^2 = 10^4 \text{GeV}^2$, 
+    and where for our "naive" model we took $z_{min} = 0.1,\, z_{max} = 1 - 10^{-5}$ :
+    
+
+    \begin{figure*}[h]
+    \centering
+    \begin{subfigure}[b]{0.45\linewidth}
+      \includegraphics[width=\linewidth]{nr-gluons-comp1.pdf}
+			\caption{gluon density}
+			\label{fig:simp_glucomp}
+    \end{subfigure}
+      \hspace{20pt}
+    \begin{subfigure}[b]{0.45\linewidth}
+      \includegraphics[width=\linewidth]{nr-downs-comp1.pdf}
+			\caption{down quark (valence + sea) density}
+			\label{fig:simp_dwncomp}
+    \end{subfigure}
+    \caption{Comparison of momentum weighted parton densities.}
+		\label{fig:simp_comp}
+    \end{figure*}
+    
+    %\vfill\eject
+
+    We can see that our naive model does not evolve the distributions as far as QCDNUM does. 
+    This is not a surprise. First, we took $z_{min} = 0.1$, which is quite high, and so strongly 
+    reduces the overall impact of the splittings. We had to restrict ourselves to this here, since we 
+    saw at \figref{fig:simp_kt2g} that lowering $z_{min}$ lead to bad $k_t$ distributions. A more 
+    accurate model should allow us to use a considerably lower $z_{min}$. Second, we only do one kind 
+    of splitting (gluon-gluon or down-down). But several other forms of splittings are allowed, 
+    notably gluon-quark, next-to-leading-order splittings with loops, splittings with other quarks flavours,
+    and so on. Restricting us to one single kind of splitting of course limits the magnitude of the evolution. 
+    We can note on \figref{fig:simp_glucomp} that our naive model is still not so bad for the gluon density at high $x$ values. 
+    This is probably because the splittings involving gluons are dominant, and so gluon-gluon splitting only 
+    would be valid at high $x$, while omitting quark-gluons splittings in \figref{fig:simp_dwncomp} would be 
+    too much of an overlook.
+
 
     \section{Summary and perspectives}
 
