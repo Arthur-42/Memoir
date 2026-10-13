@@ -7,6 +7,13 @@
 \usepackage[backend=biber, style=numeric, sorting=nty, defernumbers=true]{biblatex}
 \addbibresource{sources.bib}
 
+\renewbibmacro*{finentry}{%
+  \iffieldundef{annotation}
+    {\finentry}
+    {\setunit{\finentrypunct\par\vspace{(\bibitemsep)/3}\nobreak}
+     \printfield{annotation}%
+     \finentry}}
+
 \usepackage[top=20mm, bottom=20mm, left=20mm, right=20mm]{geometry} % définit les marges
 \usepackage{array} % permet l'alignement vertical dans les tableaux
 \usepackage{setspace} % permet de régler l'interligne
@@ -752,5 +759,6 @@ Fonctionnement du code...
 \printbibliography[heading=subbibintoc, keyword={sourcebook}, title={Textbooks and lecture notes}]
 \printbibliography[heading=subbibintoc, keyword={thesis}, title={Thesis}]
 \printbibliography[heading=subbibintoc, keyword={article}, title={Articles}]
+
 
 \end{document}
