@@ -19,7 +19,6 @@
 \usepackage{setspace} % permet de régler l'interligne
 \onehalfspacing % définit l'interligne 1,5 par défaut
 
-%\usepackage{fourier} % modifie la police par défaut
 \usepackage[osf]{newpxtext} % osf for text, not math
 \usepackage{cabin} % sans serif
 \usepackage[varqu,varl]{inconsolata} % sans serif typewriter
@@ -119,8 +118,17 @@ Citations temporaires pour que tout apparaisse dans la bibliographie :
 
 \newpage
 
-\chapter{À déterminer+}
-1-2 chapitres sur le background théorique (DGLAP, parton branching, plus de détails sur le contexte?)
+\chapter{[Elements of QFT]}
+Quelques mots sur les concepts de base de la QFT (champs, particules, méthode perturbative, règles de Feynman, algèbre, modèle standard).
+Variation d'$\alpha_s$ (explications sur la renormalisation en annexe).
+Confinement.
+
+\newpage
+
+\chapter{[Proton structure]}
+Passage sur les DIS.
+DGLAP.
+Bases du parton branching.
 
 \newpage
 
@@ -247,7 +255,7 @@ lectures. I used \cite{hj_lect} and \cite{Lelek} as a guide to complete it.}\\
                 R_{z,i} &= \frac{\int_{z_{min}}^{z_i}dz\,P_{gg}(z)}{\int_{z_{min}}^{z_{max}}dz\,P_{gg}(z)} \nonumber \\
                 \Leftrightarrow \quad
                 R_{z,i} &= \frac{6\left(\ln\left(\frac{z_i}{1-z_i}\right)-\ln\left(\frac{z_{min}}{1-z_{min}}\right)\right)}{6\left(\ln\left(\frac{z_{max}}{1-z_{max}}\right)-\ln\left(\frac{z_{min}}{1-z_{min}}\right)\right)} \nonumber \\
-                \text{posing}\quad \Aboxed{A &= R_{z,i}\ln\left(\frac{z_{max}}{1-z_{max}}\right) + (1-R_{z,i})\ln\left(\frac{z_{min}}{1-z_{min}}\right)} \nonumber \\ 
+                \text{so with}\quad \Aboxed{A &= R_{z,i}\ln\left(\frac{z_{max}}{1-z_{max}}\right) + (1-R_{z,i})\ln\left(\frac{z_{min}}{1-z_{min}}\right)} \nonumber \\ 
                 \Leftrightarrow \quad 
                 \frac{z_i}{1-z_i} &= e^A \nonumber \\ 
                 \Leftrightarrow \quad 
@@ -730,8 +738,9 @@ lectures. I used \cite{hj_lect} and \cite{Lelek} as a guide to complete it.}\\
 
 \newpage
 
-\chapter{À déterminer}
-Développement des formules utilisées dans le code, \cite{Hautmann_2018}
+\chapter{[Study of the DGLAP evolution equation]}
+
+Sum rules, reformulation, etc...
 
 \newpage
 
