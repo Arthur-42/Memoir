@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber out_dir/memoire"] 1792062735.10275 "out_dir/memoire.bcf" "out_dir/memoire.bbl" "out_dir/memoire" 1792062852.25008 0
-  "out_dir/memoire.bcf" 1792062851 109128 4c53912715796a535e5a13d7dfe5704e "pdflatex"
+["biber out_dir/memoire"] 1792062735.10275 "out_dir/memoire.bcf" "out_dir/memoire.bbl" "out_dir/memoire" 1792064607.69406 0
+  "out_dir/memoire.bcf" 1792064607 109128 4c53912715796a535e5a13d7dfe5704e "pdflatex"
   "sources.bib" 1792062734 2149 ed497827bbad3ce9f747980f0086deda ""
   (generated)
   "out_dir/memoire.bbl"
   "out_dir/memoire.blg"
   (rewritten before read)
-["pdflatex"] 1792062849.02278 "c:/Users/arth4/OneDrive/Documents/A-Unif 5/Memoire/Thesis-clone/Memoir/memoire.tex" "out_dir/memoire.pdf" "memoire" 1792062852.25117 0
+["pdflatex"] 1792064604.38862 "c:/Users/arth4/OneDrive/Documents/A-Unif 5/Memoire/Thesis-clone/Memoir/memoire.tex" "out_dir/memoire.pdf" "memoire" 1792064607.69512 0
   "c:/Users/arth4/OneDrive/Documents/A-Unif 5/Memoire/Thesis-clone/Memoir/memoire.tex" 1792062844 35945 5ac568f3eef89a4846a4ea36ae1d7999 ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/inconsolata/i4-t1-5.enc" 1761846877 7709 74634db4a06477f35279f32281f87689 ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/newpx/px-lms.enc" 1761848498 3877 2ca811886181a05a861d20a35de75e06 ""
@@ -201,8 +201,8 @@
   "figures/gg_density_mms.pdf" 1791457350 24874 af76cb9827754b3db7bc6541236bcd19 ""
   "figures/gg_kt_m1.png" 1791457350 8321 d0aa581d64321c178794beb4f382e453 ""
   "figures/gg_kt_mms.pdf" 1791457350 21269 dc06e49f164dc8ba9c39959160089b30 ""
-  "figures/nr-downs-comp1.pdf" 1791711548 19155 6410a954361b06dead4c62a7da280d6b ""
-  "figures/nr-gluons-comp1.pdf" 1791711556 19419 8b1c94cb95419180a9f62dd86dbc0506 ""
+  "figures/nr-downs-comp1.pdf" 1792064603 19278 8c8c01b9d6f9537376f2ec08a082b90b ""
+  "figures/nr-gluons-comp1.pdf" 1792064595 19442 394512c124d77518c8c10783115c3da4 ""
   "figures/qq_density_m1.png" 1791457350 9035 0a92a21d0e94d62dce50c2fad1f0336e ""
   "figures/qq_density_mms.pdf" 1791457350 24566 432b9f55be309181d5c9e36495530e28 ""
   "figures/qq_kt_m1.png" 1791457350 8385 bca698c468215eb1dbd948a29ba659fe ""
@@ -210,10 +210,10 @@
   "figures/to-gg_kt_mms.pdf" 1791457350 22199 4cd9ae44b07dc199447859e46ac94697 ""
   "figures/to-qq_kt_mms.pdf" 1791457350 21562 1d0eb4f7321391b0c638df45240b8f96 ""
   "memoire.tex" 1792062844 35945 5ac568f3eef89a4846a4ea36ae1d7999 ""
-  "out_dir/memoire.aux" 1792062851 24266 c5c320a819a16ff721e91424ea34d011 "pdflatex"
+  "out_dir/memoire.aux" 1792064607 24266 c5c320a819a16ff721e91424ea34d011 "pdflatex"
   "out_dir/memoire.bbl" 1792062737 8881 e2b38cf9bce3639a56dfc2b1ef042ac5 "biber out_dir/memoire"
-  "out_dir/memoire.run.xml" 1792062851 2387 0d900e23cc76bd02145d859dc12d3cf6 "pdflatex"
-  "out_dir/memoire.toc" 1792062851 1198 011fa9959601ae3955a5334bc70a6faa "pdflatex"
+  "out_dir/memoire.run.xml" 1792064607 2387 0d900e23cc76bd02145d859dc12d3cf6 "pdflatex"
+  "out_dir/memoire.toc" 1792064607 1198 011fa9959601ae3955a5334bc70a6faa "pdflatex"
   (generated)
   "out_dir/memoire.aux"
   "out_dir/memoire.bcf"
