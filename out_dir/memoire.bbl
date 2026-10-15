@@ -52,7 +52,7 @@
       \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{annotation}{\textit{A book.}}
+      \field{annotation}{\textit{Textbook on phenomenological QCD, and topics related to its study at high-energy colliders.}}
       \field{series}{Cambridge Monographs on Particle Physics, Nuclear Physics and Cosmology}
       \field{title}{QCD and Collider Physics}
       \field{year}{1996}
@@ -78,6 +78,7 @@
       \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
+      \field{annotation}{\textit{The notes of the lecture on phenomenological QCD I attended as a graduate student.}}
       \field{note}{Lecture notes from the ULB}
       \field{title}{Physique des interactions fortes}
       \field{year}{2024-2025}
@@ -127,6 +128,7 @@
       \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
+      \field{annotation}{\textit{On the application of the PB-TMD method at NLO to fit on HERA data.}}
       \field{issn}{1029-8479}
       \field{journaltitle}{Journal of High Energy Physics}
       \field{month}{1}
@@ -165,6 +167,7 @@
       \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
+      \field{annotation}{\textit{Lecture notes on phenomenological QCD and Monte Carlo methods.}}
       \field{note}{Lecture notes from the 2016 Cracow winter course}
       \field{title}{QCD and Monte Carlo}
       \field{year}{2016}
@@ -199,6 +202,7 @@
       \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
+      \field{annotation}{\textit{On the developpement of the PB-TMD method.}}
       \field{title}{Determination of TMD parton densities from HERA data and application to pp processes}
       \field{type}{phdthesis}
       \field{year}{2018}
