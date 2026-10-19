@@ -679,7 +679,7 @@ lectures. I used \cite{hj_lect} and \cite{Lelek} as a guide to complete it.}\\
 
     Of course, the model used here is too simple to yield physically accurate results. 
     It is nonetheless interesting to see how far (or how close) we can get. Here is a comparison 
-    of our toy model with PDFs produced with QCDNUM, both starting with the following
+    of our toy model with PDFs produced with QCDNUM with NNLO computations, both starting with the following
     realistic parton distributions 
 
     \begingroup
@@ -697,13 +697,13 @@ lectures. I used \cite{hj_lect} and \cite{Lelek} as a guide to complete it.}\\
 
     \begin{figure*}[h]
     \centering
-    \begin{subfigure}[b]{0.45\linewidth}
+    \begin{subfigure}[b]{0.42\linewidth}
       \includegraphics[width=\linewidth]{nr-gluons-comp1.pdf}
 			\caption{gluon density}
 			\label{fig:simp_glucomp}
     \end{subfigure}
       \hspace{20pt}
-    \begin{subfigure}[b]{0.45\linewidth}
+    \begin{subfigure}[b]{0.42\linewidth}
       \includegraphics[width=\linewidth]{nr-downs-comp1.pdf}
 			\caption{down quark (valence + sea) density}
 			\label{fig:simp_dwncomp}
@@ -723,10 +723,38 @@ lectures. I used \cite{hj_lect} and \cite{Lelek} as a guide to complete it.}\\
     notably gluon-quark, next-to-leading-order splittings with loops, splittings with other quarks flavours,
     and so on. Restricting us to one single kind of splitting of course limits the magnitude of the evolution. 
     And finally, we only took leading order splitting functions, and we did not evolve the coupling $\alpha_s$, 
-    which would also affect the splitting process. (We can't say what changes with the higher-order splitting functions 
-    without doing the same analysis as with \figref{fig:simp_gz1}, something we leave for a later chapter. 
-    We can guess that a running $\alpha_s$ will have a higher value for low scales that the ones used here, 
-    thus increasing the probability for splittings to occur.)\\
+    which would also affect the splitting process. To get a sense of how much the order of computations would change 
+    the results, we can see how it affects the computations of QCDNUM : 
+    
+    \begin{figure*}[h]
+    \centering
+    \begin{subfigure}[b]{0.42\linewidth}
+      \includegraphics[width=\linewidth]{r-gluons-comp2.pdf}
+			\caption{gluon density}
+			\label{fig:simp_gluords}
+    \end{subfigure}
+      \hspace{20pt}
+    \begin{subfigure}[b]{0.42\linewidth}
+      \includegraphics[width=\linewidth]{r-downs-comp2.pdf}
+			\caption{down quark (valence + sea) density}
+			\label{fig:simp_dwnords}
+    \end{subfigure}
+    \caption{Comparison of momentum weighted parton densities.}
+		\label{fig:simp_ords}
+    \end{figure*}
+
+    \vfill\eject
+
+    On \figref{fig:simp_comp} we see the evolved densities of QCDNUM, where the splitting function and the 
+    running of $\alpha_s$ are calculated at different orders. There is no straightforward way to make these computations 
+    with QCDNUM without running $\alpha_s$, so we cannot test the effect of this here. Looking back at \equref{eq:simp_scalegen}, we 
+    can see that, since a running $\alpha_s$ would have higher values at low scale that the one used in our naive model, it would 
+    have a higher probability to generate low scales, and thus induce more splittings. (Even without looking at \equref{eq:simp_scalegen}, 
+    we can guess that a higher coupling makes interactions -- here splittings -- more probable).\\
+    Clearly the order of the splitting functions is not the dominant reason for the difference between the QCDNUM results and the ones of our naive model. 
+    However, we expect that higher-order computations for the parton branching method would allow us to use 
+    a more realistic (i.e. smaller) $z_min$ and still give a good-looking $k_t$ distributions (unlike at \figref{fig:simp_kt2g}, as stated 
+    above), and that would make a large step towards good results.\\
     
     We can note on \figref{fig:simp_glucomp} that our naive model is still not so bad for the gluon density at high $x$ values. 
     This is probably because the splittings involving gluons are dominant, and so gluon-gluon splitting only 
