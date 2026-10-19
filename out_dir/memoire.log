@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.10.30)  19 OCT 2026 09:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.10.30)  19 OCT 2026 14:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1462,13 +1462,13 @@ Package logreq Info: Writing requests to 'memoire.run.xml'.
 Here is how much of TeX's memory you used:
  27829 strings out of 467747
  486418 string characters out of 5431120
- 1323143 words of memory out of 5000000
+ 1323153 words of memory out of 5000000
  56066 multiletter control sequences out of 15000+600000
  707837 words of font info for 117 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  83i,13n,131p,769b,2475s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2025/texmf-dist/fonts/type1/public/inconsolata/Inconsolata-zi4r.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/newpx/NewPXMI.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/newpx/NewPXMI_gnu.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/newpx/pxmiaX.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/newpx/pxsys.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/newtx/txexs.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/newpx/zplb.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/newpx/zplbi.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/newpx/zplr.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/newpx/zplri.pfb>
-Output written on out_dir/memoire.pdf (24 pages, 1214517 bytes).
+Output written on out_dir/memoire.pdf (24 pages, 1214515 bytes).
 PDF statistics:
  1261 PDF objects out of 1440 (max. 8388607)
  665 compressed objects within 7 object streams
