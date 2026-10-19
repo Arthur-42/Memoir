@@ -140,6 +140,7 @@ branching method, with a very simplified framework, taken from the exercises adj
 Even if this implementation is far less sophisticated than the one this thesis is focused on, it 
 already holds many of its key points, and will allow us, by fiddling with its parameters, to 
 investigate its behaviour and reveal points of interest to keep in mind for the full implementation. \\
+
 \textit{\textbf{Note : }This is the reason why completing the exercises from \cite{hj_lect} was the first step of 
 my assignment. The parton evolution presented here is a slight variation of exercise 3 of these 
 lectures. I used \cite{hj_lect} and \cite{Lelek} as a guide to complete it.}\\
@@ -437,7 +438,8 @@ lectures. I used \cite{hj_lect} and \cite{Lelek} as a guide to complete it.}\\
 
     Let us recall that the evolution is stopped when $\mu_i^2>\mu_f^2\equiv10^4\,\text{GeV}^2$. Let us also recall 
     that from \equref{eq:simp_scalegen}, with a different initial scale $\mu_0^2 \neq 1$ we would 
-    have got the same graph, with $\mu_1^2$ multiplied by $\mu_0^2$.\\
+    have got the same graph, with $\mu_1^2$ multiplied by $\mu_0^2$, so this graph is representative of the 
+    generation of scales after the first.\\
     We can see that decreasing $\epsilon$ decrease the probability of generating large scales (a smaller 
     range of $R_{\mu_1^2}$ would produce them), which overall 
     means that there will be more branching before the final scale is reached. We can also note 
@@ -649,7 +651,7 @@ lectures. I used \cite{hj_lect} and \cite{Lelek} as a guide to complete it.}\\
 		\label{fig:simp_eg1}
     \end{figure*}
 
-    \vfill\eject
+    %\vfill\eject
     Now successive steps always do a larger $k_t$ jump. But we can already anticipate an issue here. 
     The amount of splitting is sensitive to $z_{max}$, and so is the $z_i$ generation, but the $k_t$ generation
     is only sensitive to the former, since \equref{eq:simp_trord} does not depend on $z_i$. We can 
@@ -697,13 +699,13 @@ lectures. I used \cite{hj_lect} and \cite{Lelek} as a guide to complete it.}\\
 
     \begin{figure*}[h]
     \centering
-    \begin{subfigure}[b]{0.42\linewidth}
+    \begin{subfigure}[b]{0.45\linewidth}
       \includegraphics[width=\linewidth]{nr-gluons-comp1.pdf}
 			\caption{gluon density}
 			\label{fig:simp_glucomp}
     \end{subfigure}
       \hspace{20pt}
-    \begin{subfigure}[b]{0.42\linewidth}
+    \begin{subfigure}[b]{0.45\linewidth}
       \includegraphics[width=\linewidth]{nr-downs-comp1.pdf}
 			\caption{down quark (valence + sea) density}
 			\label{fig:simp_dwncomp}
@@ -715,26 +717,28 @@ lectures. I used \cite{hj_lect} and \cite{Lelek} as a guide to complete it.}\\
     %\vfill\eject
 
     We can see that our naive model does not evolve the distributions as far as QCDNUM does. 
-    This is not a surprise. First, we took $z_{min} = 0.1$, which is quite high, and so strongly 
+    This is not a surprise. \\
+    First, we took $z_{min} = 0.1$, which is quite high, and so strongly 
     reduces the overall impact of the splittings. We had to restrict ourselves to this here, since we 
     saw at \figref{fig:simp_kt2g} that lowering $z_{min}$ lead to bad $k_t$ distributions. A more 
-    accurate model should allow us to use a considerably lower $z_{min}$. Second, we only do one kind 
+    accurate model should allow us to use a considerably lower $z_{min}$. \\
+    Second, we only do one kind 
     of splitting (gluon-gluon or down-down). But several other forms of splittings are allowed, 
     notably gluon-quark, next-to-leading-order splittings with loops, splittings with other quarks flavours,
-    and so on. Restricting us to one single kind of splitting of course limits the magnitude of the evolution. 
+    and so on. Restricting us to one single kind of splitting of course limits the magnitude of the evolution. \\
     And finally, we only took leading order splitting functions, and we did not evolve the coupling $\alpha_s$, 
     which would also affect the splitting process. To get a sense of how much the order of computations would change 
-    the results, we can see how it affects the computations of QCDNUM : 
+    the results, we can see how it affects those of QCDNUM : 
     
     \begin{figure*}[h]
     \centering
-    \begin{subfigure}[b]{0.42\linewidth}
+    \begin{subfigure}[b]{0.45\linewidth}
       \includegraphics[width=\linewidth]{r-gluons-comp2.pdf}
 			\caption{gluon density}
 			\label{fig:simp_gluords}
     \end{subfigure}
       \hspace{20pt}
-    \begin{subfigure}[b]{0.42\linewidth}
+    \begin{subfigure}[b]{0.45\linewidth}
       \includegraphics[width=\linewidth]{r-downs-comp2.pdf}
 			\caption{down quark (valence + sea) density}
 			\label{fig:simp_dwnords}

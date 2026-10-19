@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.10.30)  19 OCT 2026 09:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.10.30)  19 OCT 2026 09:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1125,26 +1125,31 @@ Chapter 2.
 
 ]
 Chapter 3.
+
+Underfull \hbox (badness 10000) in paragraph at lines 137--143
+
+ []
+
 LaTeX Font Info:    Font shape `T1/zpltosf/m/it' will be
-(Font)              scaled to size 10.0pt on input line 145.
+(Font)              scaled to size 10.0pt on input line 146.
 LaTeX Font Info:    Font shape `T1/zpltosf/b/it' will be
-(Font)              scaled to size 10.0pt on input line 145.
+(Font)              scaled to size 10.0pt on input line 146.
 
-Underfull \hbox (badness 10000) in paragraph at lines 137--146
+Underfull \hbox (badness 10000) in paragraph at lines 146--147
 
  []
 
 LaTeX Font Info:    Font shape `T1/zpltosf/m/n' will be
-(Font)              scaled to size 7.3pt on input line 151.
+(Font)              scaled to size 7.3pt on input line 152.
 LaTeX Font Info:    Font shape `T1/zpltosf/m/n' will be
-(Font)              scaled to size 5.5pt on input line 151.
+(Font)              scaled to size 5.5pt on input line 152.
 
-Underfull \hbox (badness 10000) in paragraph at lines 170--172
+Underfull \hbox (badness 10000) in paragraph at lines 171--173
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 173--179
+Underfull \hbox (badness 10000) in paragraph at lines 174--180
 
  []
 
@@ -1153,12 +1158,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 173--179
 [6
 
 {c:/texlive/2025/texmf-dist/fonts/enc/dvips/newpx/px-lms.enc}{c:/texlive/2025/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}]
-Underfull \hbox (badness 10000) in paragraph at lines 204--208
+Underfull \hbox (badness 10000) in paragraph at lines 205--209
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 243--247
+Underfull \hbox (badness 10000) in paragraph at lines 244--248
 
  []
 
@@ -1167,31 +1172,31 @@ Underfull \hbox (badness 10000) in paragraph at lines 243--247
 [7]
 
 [8]
-Underfull \hbox (badness 10000) in paragraph at lines 302--306
+Underfull \hbox (badness 10000) in paragraph at lines 303--307
 
  []
 
 <figures/a-walksz-Pgg.pdf, id=117, 569.12625pt x 544.0325pt>
 File: figures/a-walksz-Pgg.pdf Graphic file (type pdf)
 <use figures/a-walksz-Pgg.pdf>
-Package pdftex.def Info: figures/a-walksz-Pgg.pdf  used on input line 324.
+Package pdftex.def Info: figures/a-walksz-Pgg.pdf  used on input line 325.
 (pdftex.def)             Requested size: 149.94484pt x 143.3295pt.
 LaTeX Font Info:    Font shape `T1/zpltosf/m/n' will be
-(Font)              scaled to size 9.0pt on input line 325.
+(Font)              scaled to size 9.0pt on input line 326.
 <figures/a-walksktxy-Pgg.pdf, id=118, 569.12625pt x 544.0325pt>
 File: figures/a-walksktxy-Pgg.pdf Graphic file (type pdf)
 <use figures/a-walksktxy-Pgg.pdf>
-Package pdftex.def Info: figures/a-walksktxy-Pgg.pdf  used on input line 330.
+Package pdftex.def Info: figures/a-walksktxy-Pgg.pdf  used on input line 331.
 (pdftex.def)             Requested size: 149.94484pt x 143.3295pt.
 LaTeX Font Info:    Font shape `OT1/minzpl/m/n' will be
-(Font)              scaled to size 9.0pt on input line 331.
+(Font)              scaled to size 9.0pt on input line 332.
 <figures/a-walkskt-Pgg.pdf, id=119, 569.12625pt x 544.0325pt>
 File: figures/a-walkskt-Pgg.pdf Graphic file (type pdf)
 <use figures/a-walkskt-Pgg.pdf>
-Package pdftex.def Info: figures/a-walkskt-Pgg.pdf  used on input line 336.
+Package pdftex.def Info: figures/a-walkskt-Pgg.pdf  used on input line 337.
 (pdftex.def)             Requested size: 149.94484pt x 143.3295pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 344--348
+Underfull \hbox (badness 10000) in paragraph at lines 345--349
 
  []
 
@@ -1201,64 +1206,64 @@ Underfull \hbox (badness 10000) in paragraph at lines 344--348
 <figures/gg_density_m1.png, id=262, 499.8675pt x 477.785pt>
 File: figures/gg_density_m1.png Graphic file (type png)
 <use figures/gg_density_m1.png>
-Package pdftex.def Info: figures/gg_density_m1.png  used on input line 372.
+Package pdftex.def Info: figures/gg_density_m1.png  used on input line 373.
 (pdftex.def)             Requested size: 217.66211pt x 208.04622pt.
 <figures/qq_density_m1.png, id=263, 499.8675pt x 477.785pt>
 File: figures/qq_density_m1.png Graphic file (type png)
 <use figures/qq_density_m1.png>
-Package pdftex.def Info: figures/qq_density_m1.png  used on input line 378.
+Package pdftex.def Info: figures/qq_density_m1.png  used on input line 379.
 (pdftex.def)             Requested size: 217.66211pt x 208.04622pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 386--391
+Underfull \hbox (badness 10000) in paragraph at lines 387--392
 
  []
 
 <figures/gg_kt_m1.png, id=264, 499.8675pt x 477.785pt>
 File: figures/gg_kt_m1.png Graphic file (type png)
 <use figures/gg_kt_m1.png>
-Package pdftex.def Info: figures/gg_kt_m1.png  used on input line 397.
+Package pdftex.def Info: figures/gg_kt_m1.png  used on input line 398.
 (pdftex.def)             Requested size: 217.66211pt x 208.04622pt.
 <figures/qq_kt_m1.png, id=265, 499.8675pt x 477.785pt>
 File: figures/qq_kt_m1.png Graphic file (type png)
 <use figures/qq_kt_m1.png>
-Package pdftex.def Info: figures/qq_kt_m1.png  used on input line 403.
+Package pdftex.def Info: figures/qq_kt_m1.png  used on input line 404.
 (pdftex.def)             Requested size: 217.66211pt x 208.04622pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 411--415
+Underfull \hbox (badness 10000) in paragraph at lines 412--416
 
  []
 
 
 
 [10 <./figures/gg_density_m1.png> <./figures/qq_density_m1.png> <./figures/gg_kt_m1.png> <./figures/qq_kt_m1.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 416--418
+Underfull \hbox (badness 10000) in paragraph at lines 417--419
 
  []
 
 <figures/genscalege.png, id=272, 631.6398pt x 523.9575pt>
 File: figures/genscalege.png Graphic file (type png)
 <use figures/genscalege.png>
-Package pdftex.def Info: figures/genscalege.png  used on input line 424.
+Package pdftex.def Info: figures/genscalege.png  used on input line 425.
 (pdftex.def)             Requested size: 217.66211pt x 180.55766pt.
 <figures/genscaleqe.png, id=274, 638.1441pt x 523.9575pt>
 File: figures/genscaleqe.png Graphic file (type png)
 <use figures/genscaleqe.png>
-Package pdftex.def Info: figures/genscaleqe.png  used on input line 430.
+Package pdftex.def Info: figures/genscaleqe.png  used on input line 431.
 (pdftex.def)             Requested size: 217.66211pt x 178.71083pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 438--447
+Underfull \hbox (badness 10000) in paragraph at lines 439--449
 
  []
 
 <figures/gg_density_mms.pdf, id=276, 569.12625pt x 544.0325pt>
 File: figures/gg_density_mms.pdf Graphic file (type pdf)
 <use figures/gg_density_mms.pdf>
-Package pdftex.def Info: figures/gg_density_mms.pdf  used on input line 453.
+Package pdftex.def Info: figures/gg_density_mms.pdf  used on input line 455.
 (pdftex.def)             Requested size: 217.66211pt x 208.0627pt.
 <figures/qq_density_mms.pdf, id=277, 569.12625pt x 544.0325pt>
 File: figures/qq_density_mms.pdf Graphic file (type pdf)
 <use figures/qq_density_mms.pdf>
-Package pdftex.def Info: figures/qq_density_mms.pdf  used on input line 459.
+Package pdftex.def Info: figures/qq_density_mms.pdf  used on input line 461.
 (pdftex.def)             Requested size: 217.66211pt x 208.0627pt.
 
 
@@ -1266,22 +1271,22 @@ Package pdftex.def Info: figures/qq_density_mms.pdf  used on input line 459.
 <figures/gg_kt_mms.pdf, id=372, 569.12625pt x 544.0325pt>
 File: figures/gg_kt_mms.pdf Graphic file (type pdf)
 <use figures/gg_kt_mms.pdf>
-Package pdftex.def Info: figures/gg_kt_mms.pdf  used on input line 478.
+Package pdftex.def Info: figures/gg_kt_mms.pdf  used on input line 480.
 (pdftex.def)             Requested size: 217.66211pt x 208.0627pt.
 <figures/qq_kt_mms.pdf, id=373, 569.12625pt x 544.0325pt>
 File: figures/qq_kt_mms.pdf Graphic file (type pdf)
 <use figures/qq_kt_mms.pdf>
-Package pdftex.def Info: figures/qq_kt_mms.pdf  used on input line 484.
+Package pdftex.def Info: figures/qq_kt_mms.pdf  used on input line 486.
 (pdftex.def)             Requested size: 217.66211pt x 208.0627pt.
 <figures/gensplige.png, id=374, 620.7993pt x 523.2348pt>
 File: figures/gensplige.png Graphic file (type png)
 <use figures/gensplige.png>
-Package pdftex.def Info: figures/gensplige.png  used on input line 502.
+Package pdftex.def Info: figures/gensplige.png  used on input line 504.
 (pdftex.def)             Requested size: 217.66211pt x 183.45427pt.
 <figures/genspliqe.png, id=375, 565.8741pt x 586.1097pt>
 File: figures/genspliqe.png Graphic file (type png)
 <use figures/genspliqe.png>
-Package pdftex.def Info: figures/genspliqe.png  used on input line 508.
+Package pdftex.def Info: figures/genspliqe.png  used on input line 510.
 (pdftex.def)             Requested size: 193.47578pt x 200.39256pt.
 
 
@@ -1289,125 +1294,126 @@ Package pdftex.def Info: figures/genspliqe.png  used on input line 508.
 <figures/a-walksz-Pgge5.pdf, id=478, 569.12625pt x 544.0325pt>
 File: figures/a-walksz-Pgge5.pdf Graphic file (type pdf)
 <use figures/a-walksz-Pgge5.pdf>
-Package pdftex.def Info: figures/a-walksz-Pgge5.pdf  used on input line 533.
+Package pdftex.def Info: figures/a-walksz-Pgge5.pdf  used on input line 535.
 (pdftex.def)             Requested size: 149.94484pt x 143.3295pt.
 <figures/a-walksktxy-Pgge5.pdf, id=479, 569.12625pt x 544.0325pt>
 File: figures/a-walksktxy-Pgge5.pdf Graphic file (type pdf)
 <use figures/a-walksktxy-Pgge5.pdf>
-Package pdftex.def Info: figures/a-walksktxy-Pgge5.pdf  used on input line 539.
+Package pdftex.def Info: figures/a-walksktxy-Pgge5.pdf  used on input line 541.
 (pdftex.def)             Requested size: 149.94484pt x 143.3295pt.
 <figures/a-walkskt-Pgge5.pdf, id=480, 569.12625pt x 544.0325pt>
 File: figures/a-walkskt-Pgge5.pdf Graphic file (type pdf)
 <use figures/a-walkskt-Pgge5.pdf>
-Package pdftex.def Info: figures/a-walkskt-Pgge5.pdf  used on input line 545.
+Package pdftex.def Info: figures/a-walkskt-Pgge5.pdf  used on input line 547.
 (pdftex.def)             Requested size: 149.94484pt x 143.3295pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 553--556
+Underfull \hbox (badness 10000) in paragraph at lines 555--558
 
  []
 
 <figures/genscalegz.png, id=482, 631.6398pt x 523.9575pt>
 File: figures/genscalegz.png Graphic file (type png)
 <use figures/genscalegz.png>
-Package pdftex.def Info: figures/genscalegz.png  used on input line 563.
+Package pdftex.def Info: figures/genscalegz.png  used on input line 565.
 (pdftex.def)             Requested size: 217.66211pt x 180.55766pt.
 <figures/genscaleqz.png, id=483, 638.1441pt x 523.9575pt>
 File: figures/genscaleqz.png Graphic file (type png)
 <use figures/genscaleqz.png>
-Package pdftex.def Info: figures/genscaleqz.png  used on input line 569.
+Package pdftex.def Info: figures/genscaleqz.png  used on input line 571.
 (pdftex.def)             Requested size: 217.66211pt x 178.71083pt.
-<figures/genspligz.png, id=487, 620.7993pt x 523.2348pt>
-File: figures/genspligz.png Graphic file (type png)
-<use figures/genspligz.png>
-Package pdftex.def Info: figures/genspligz.png  used on input line 589.
-(pdftex.def)             Requested size: 217.66211pt x 183.45427pt.
-<figures/genspliqz.png, id=488, 565.8741pt x 586.1097pt>
-File: figures/genspliqz.png Graphic file (type png)
-<use figures/genspliqz.png>
-Package pdftex.def Info: figures/genspliqz.png  used on input line 595.
-(pdftex.def)             Requested size: 193.47578pt x 200.39256pt.
 
 
 [13 <./figures/a-walksz-Pgge5.pdf, page is rotated 90 degrees> <./figures/a-walksktxy-Pgge5.pdf, page is rotated 90 degrees> <./figures/a-walkskt-Pgge5.pdf, page is rotated 90 degrees> <./figures/genscalegz.png> <./figures/genscaleqz.png>]
+<figures/genspligz.png, id=626, 620.7993pt x 523.2348pt>
+File: figures/genspligz.png Graphic file (type png)
+<use figures/genspligz.png>
+Package pdftex.def Info: figures/genspligz.png  used on input line 591.
+(pdftex.def)             Requested size: 217.66211pt x 183.45427pt.
+<figures/genspliqz.png, id=627, 565.8741pt x 586.1097pt>
+File: figures/genspliqz.png Graphic file (type png)
+<use figures/genspliqz.png>
+Package pdftex.def Info: figures/genspliqz.png  used on input line 597.
+(pdftex.def)             Requested size: 193.47578pt x 200.39256pt.
 <figures/d-gg_density_mms.pdf, id=628, 569.12625pt x 544.0325pt>
 File: figures/d-gg_density_mms.pdf Graphic file (type pdf)
 <use figures/d-gg_density_mms.pdf>
-Package pdftex.def Info: figures/d-gg_density_mms.pdf  used on input line 611.
+Package pdftex.def Info: figures/d-gg_density_mms.pdf  used on input line 613.
 (pdftex.def)             Requested size: 217.66211pt x 208.0627pt.
 <figures/d-gg_kt_mms.pdf, id=629, 569.12625pt x 544.0325pt>
 File: figures/d-gg_kt_mms.pdf Graphic file (type pdf)
 <use figures/d-gg_kt_mms.pdf>
-Package pdftex.def Info: figures/d-gg_kt_mms.pdf  used on input line 617.
+Package pdftex.def Info: figures/d-gg_kt_mms.pdf  used on input line 619.
 (pdftex.def)             Requested size: 217.66211pt x 208.0627pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 625--630
+Underfull \hbox (badness 10000) in paragraph at lines 627--632
 
  []
 
 <figures/a-to-walksktxy-Pgg.pdf, id=631, 569.12625pt x 544.0325pt>
 File: figures/a-to-walksktxy-Pgg.pdf Graphic file (type pdf)
 <use figures/a-to-walksktxy-Pgg.pdf>
-Package pdftex.def Info: figures/a-to-walksktxy-Pgg.pdf  used on input line 638.
+Package pdftex.def Info: figures/a-to-walksktxy-Pgg.pdf  used on input line 640.
 (pdftex.def)             Requested size: 178.96547pt x 171.0723pt.
 <figures/a-to-walkskt-Pgg.pdf, id=632, 569.12625pt x 544.0325pt>
 File: figures/a-to-walkskt-Pgg.pdf Graphic file (type pdf)
 <use figures/a-to-walkskt-Pgg.pdf>
-Package pdftex.def Info: figures/a-to-walkskt-Pgg.pdf  used on input line 644.
+Package pdftex.def Info: figures/a-to-walkskt-Pgg.pdf  used on input line 646.
 (pdftex.def)             Requested size: 178.96547pt x 171.0723pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 
 
 [14 <./figures/genspligz.png> <./figures/genspliqz.png> <./figures/d-gg_density_mms.pdf, page is rotated 90 degrees> <./figures/d-gg_kt_mms.pdf, page is rotated 90 degrees>]
 <figures/to-gg_kt_mms.pdf, id=728, 569.12625pt x 544.0325pt>
 File: figures/to-gg_kt_mms.pdf Graphic file (type pdf)
 <use figures/to-gg_kt_mms.pdf>
-Package pdftex.def Info: figures/to-gg_kt_mms.pdf  used on input line 661.
+Package pdftex.def Info: figures/to-gg_kt_mms.pdf  used on input line 663.
 (pdftex.def)             Requested size: 217.66211pt x 208.0627pt.
 <figures/to-qq_kt_mms.pdf, id=729, 569.12625pt x 544.0325pt>
 File: figures/to-qq_kt_mms.pdf Graphic file (type pdf)
 <use figures/to-qq_kt_mms.pdf>
-Package pdftex.def Info: figures/to-qq_kt_mms.pdf  used on input line 667.
+Package pdftex.def Info: figures/to-qq_kt_mms.pdf  used on input line 669.
 (pdftex.def)             Requested size: 217.66211pt x 208.0627pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 675--679
+Underfull \hbox (badness 10000) in paragraph at lines 677--681
 
  []
 
 
 
 [15 <./figures/a-to-walksktxy-Pgg.pdf, page is rotated 90 degrees> <./figures/a-to-walkskt-Pgg.pdf, page is rotated 90 degrees> <./figures/to-gg_kt_mms.pdf, page is rotated 90 degrees> <./figures/to-qq_kt_mms.pdf, page is rotated 90 degrees>]
-<figures/nr-gluons-comp1.pdf, id=909, 569.12625pt x 541.02126pt>
+<figures/nr-gluons-comp1.pdf, id=908, 569.12625pt x 541.02126pt>
 File: figures/nr-gluons-comp1.pdf Graphic file (type pdf)
 <use figures/nr-gluons-comp1.pdf>
-Package pdftex.def Info: figures/nr-gluons-comp1.pdf  used on input line 701.
-(pdftex.def)             Requested size: 203.1518pt x 193.1247pt.
-<figures/nr-downs-comp1.pdf, id=910, 569.12625pt x 541.02126pt>
+Package pdftex.def Info: figures/nr-gluons-comp1.pdf  used on input line 703.
+(pdftex.def)             Requested size: 217.66211pt x 206.91106pt.
+<figures/nr-downs-comp1.pdf, id=909, 569.12625pt x 541.02126pt>
 File: figures/nr-downs-comp1.pdf Graphic file (type pdf)
 <use figures/nr-downs-comp1.pdf>
-Package pdftex.def Info: figures/nr-downs-comp1.pdf  used on input line 707.
-(pdftex.def)             Requested size: 203.1518pt x 193.1247pt.
-<figures/r-gluons-comp2.pdf, id=912, 569.12625pt x 541.02126pt>
+Package pdftex.def Info: figures/nr-downs-comp1.pdf  used on input line 709.
+(pdftex.def)             Requested size: 217.66211pt x 206.91106pt.
+<figures/r-gluons-comp2.pdf, id=911, 569.12625pt x 541.02126pt>
 File: figures/r-gluons-comp2.pdf Graphic file (type pdf)
 <use figures/r-gluons-comp2.pdf>
-Package pdftex.def Info: figures/r-gluons-comp2.pdf  used on input line 732.
-(pdftex.def)             Requested size: 203.1518pt x 193.1247pt.
-<figures/r-downs-comp2.pdf, id=913, 569.12625pt x 541.02126pt>
+Package pdftex.def Info: figures/r-gluons-comp2.pdf  used on input line 736.
+(pdftex.def)             Requested size: 217.66211pt x 206.91106pt.
+<figures/r-downs-comp2.pdf, id=912, 569.12625pt x 541.02126pt>
 File: figures/r-downs-comp2.pdf Graphic file (type pdf)
 <use figures/r-downs-comp2.pdf>
-Package pdftex.def Info: figures/r-downs-comp2.pdf  used on input line 738.
-(pdftex.def)             Requested size: 203.1518pt x 193.1247pt.
+Package pdftex.def Info: figures/r-downs-comp2.pdf  used on input line 742.
+(pdftex.def)             Requested size: 217.66211pt x 206.91106pt.
 
 
-[16 <./figures/nr-gluons-comp1.pdf, page is rotated 90 degrees> <./figures/nr-downs-comp1.pdf, page is rotated 90 degrees> <./figures/r-gluons-comp2.pdf, page is rotated 90 degrees> <./figures/r-downs-comp2.pdf, page is rotated 90 degrees>]
-Underfull \hbox (badness 10000) in paragraph at lines 748--758
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+
+[16 <./figures/nr-gluons-comp1.pdf, page is rotated 90 degrees> <./figures/nr-downs-comp1.pdf, page is rotated 90 degrees>]
+Underfull \hbox (badness 10000) in paragraph at lines 752--762
 
  []
 
 
 
-[17]
+[17 <./figures/r-gluons-comp2.pdf, page is rotated 90 degrees> <./figures/r-downs-comp2.pdf, page is rotated 90 degrees>]
 Chapter 4.
 
 
@@ -1430,12 +1436,12 @@ Chapter 5.
 ]
 
 [22]
-LaTeX Font Info:    Trying to load font information for T1+zi4 on input line 802.
+LaTeX Font Info:    Trying to load font information for T1+zi4 on input line 806.
  (c:/texlive/2025/texmf-dist/tex/latex/inconsolata/t1zi4.fd
 File: t1zi4.fd 2018/01/14 T1/zi4 (Inconsolata)
 )
 LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
-(Font)              scaled to size 10.0pt on input line 802.
+(Font)              scaled to size 10.0pt on input line 806.
 
 
 [23
@@ -1462,7 +1468,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  83i,13n,131p,769b,2475s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2025/texmf-dist/fonts/type1/public/inconsolata/Inconsolata-zi4r.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/newpx/NewPXMI.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/newpx/NewPXMI_gnu.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/newpx/pxmiaX.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/newpx/pxsys.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/newtx/txexs.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/newpx/zplb.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/newpx/zplbi.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/newpx/zplr.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/newpx/zplri.pfb>
-Output written on out_dir/memoire.pdf (24 pages, 1214304 bytes).
+Output written on out_dir/memoire.pdf (24 pages, 1214517 bytes).
 PDF statistics:
  1261 PDF objects out of 1440 (max. 8388607)
  665 compressed objects within 7 object streams
