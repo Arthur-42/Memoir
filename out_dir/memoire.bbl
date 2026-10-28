@@ -84,6 +84,42 @@
       \field{year}{2024-2025}
       \keyw{sourcebook}
     \endentry
+    \entry{Halzen:1984mc}{book}{}{}
+      \name{author}{2}{}{%
+        {{hash=5b34738fc903ff7302e22f9f4cfd4ee1}{%
+           family={Halzen},
+           familyi={H\bibinitperiod},
+           given={Francis},
+           giveni={F\bibinitperiod}}}%
+        {{hash=d1d926403429b3e318f9bdb922a8fb3f}{%
+           family={Martin},
+           familyi={M\bibinitperiod},
+           given={Alan},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York, USA}%
+      }
+      \list{publisher}{1}{%
+        {John Wiley \& Sons}%
+      }
+      \strng{namehash}{ba5f07855eeba1e1fb7ee72d29d863ad}
+      \strng{fullhash}{ba5f07855eeba1e1fb7ee72d29d863ad}
+      \strng{fullhashraw}{ba5f07855eeba1e1fb7ee72d29d863ad}
+      \strng{bibnamehash}{ba5f07855eeba1e1fb7ee72d29d863ad}
+      \strng{authorbibnamehash}{ba5f07855eeba1e1fb7ee72d29d863ad}
+      \strng{authornamehash}{ba5f07855eeba1e1fb7ee72d29d863ad}
+      \strng{authorfullhash}{ba5f07855eeba1e1fb7ee72d29d863ad}
+      \strng{authorfullhashraw}{ba5f07855eeba1e1fb7ee72d29d863ad}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{\textit{Textbook on the Standard Model, with some phenomenological approaches of QCD.}}
+      \field{title}{Quarks \& Leptons: An introductory course in modern particle physics}
+      \field{year}{1984}
+      \keyw{sourcebook}
+    \endentry
     \entry{Hautmann_2018}{article}{}{}
       \name{author}{5}{}{%
         {{hash=8bd84310b0bb2cc56052b7dd6f3aabed}{%
