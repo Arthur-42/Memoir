@@ -869,15 +869,16 @@ The momenta are taken as follows (in the massless quark limit) :
 That way, we have $p^2 = 0,\, p'^2 = 0 + \bigO(p_{\perp}^2), \, k^2 = 0 + \bigO(p_{\perp}^2)$, where 
 the outgoing quark and gluon are thus slightly off-shell. \textit{\textbf{Note : }the expansion of the 
 adimensionned quantity is actually in powers of $(p_{\perp}/p)$, so we only need $p_{\perp}<<p$.}\\
-If we want to better approximate the case of a real outgoing quark and virtual outgoing gluon, we may take 
+If we want to better approximate the case of a off-shell outgoing quark and on-shell outgoing gluon, we may take 
 
 \begin{equation}
-  p' = \left(zp,\, p_{\perp},\, 0,\, zp - \frac{p_{\perp}^2}{2zp}\right) \quad ; \quad 
-  k = \left((1-z)p,\, -p_{\perp},\, 0,\, (1-z)p + \frac{p_{\perp}^2}{2zp}\right)
+  p' = \left(zp,\, p_{\perp},\, 0,\, zp - \frac{p_{\perp}^2}{2(1-z)p}\right) \quad ; \quad 
+  k = \left((1-z)p,\, -p_{\perp},\, 0,\, (1-z)p + \frac{p_{\perp}^2}{2(1-z)p}\right)
+  \label{app:bmomenta}
 \end{equation}
 
-With then $p'^2 = 0 + \bigO(p_{\perp}^4)$, $k^2 = -p_{\perp}^2/z + \bigO(p_{\perp}^4)$. The case of a real gluon and 
-virtual quark is obtained the same way by substituting $p_{\perp}^2/2zp \rightarrow p_{\perp}^2/2(1-z)p$ above. 
+With then $p'^2 = 0 + \bigO(p_{\perp}^4)$, $k^2 = -p_{\perp}^2/(1-z) + \bigO(p_{\perp}^4)$. The case of a off-shell gluon and 
+on-shell quark is obtained the same way by substituting $p_{\perp}^2/2(1-z)p \rightarrow p_{\perp}^2/2zp$ above. 
 Nevertheless, we will stick to the definitions at \ref{app:momenta} for the computation of the matrix element 
 as it yields the same result up to $\bigO(p_{\perp}^2)$ terms (thus $\bigO(p_{\perp}^3)$ terms for the squared matrix element).\\ 
 
@@ -1034,7 +1035,7 @@ times 3 quark colours). We have
   \frac{1}{6}\sum_{A, a, b}\sum_{h,h'=\{L,R\}} &|\mathcal{M}(q_h \rightarrow q_h\,g_{h'})\mathcal{M}^{\dagger}(q_h \rightarrow q_h\,g_{h'})| \nonumber \\
   =& \frac{1}{6}\sum_{A, a, b} \left(T^A_{ba}\,T^A_{ab}\right)\left( 2\,g^2\frac{2z}{z^2(1-z)^2}p^2_{\perp} 
   + 2\,g^2\frac{2z}{(1-z)^2}p^2_{\perp} \right) \nonumber \\
-  =& \frac{8}{3}\frac{g^2 p_{\perp}^2}{z(1-z)}\left[\frac{1+z^2}{1-z}\right]
+  =& \frac{4}{3}\frac{2g^2 p_{\perp}^2}{z(1-z)}\left[\frac{1+z^2}{1-z}\right]
 \end{align}
 
 Where we used that the Gell-Mann matrices are hermitian and that 
@@ -1043,6 +1044,40 @@ Where we used that the Gell-Mann matrices are hermitian and that
   \frac{1}{3}\sum_{A, a, b} T^A_{ba}\,T^A_{ab} = \frac{4}{3}
 \end{equation}
 
+Now, we are interested in the "factored" cross section $\sigma_{\text{fact}}$ of this process, in the sense that the outgoing quark 
+is supposed to connect to another process (say with cross section $\sigma(q'X \rightarrow Y)$), but that the gluon branching can be 
+factored from the whole interaction, with cross section $\sigma(qX \rightarrow gY) = \sigma_{\text{fact}}\,\sigma(q'X \rightarrow Y)$. 
+The validity of this is discussed in [auto-référence à ajouter].
+In this expression we seek here, we will have the propagator (squared) of the outgoing quark and its 
+momentum unintegrated, as it is really an internal propagator between the gluon splitting and the process described 
+by $\sigma(q'X \rightarrow Y)$.
+For the expression of the propagator to be nondivergent, we take the outgoing quark to be slightly off-shell, with momentum 
+given as in \ref{app:bmomenta}. \\
+We have :  
+
+\begin{equation}
+  \sigma_{\text{fact}} = 2p'^0\; \frac{1}{2p^0}\int \frac{d^3k}{(2\pi)^3}\frac{1}{2k^0}
+   \left[\frac{1}{6}\sum |\mathcal{M}\mathcal{M}^{\dagger}|\right] \left(\frac{1}{p'^2}\right)^2
+\end{equation}
+
+The prefactor $2p'^0$ accounts for the fact that the prefactor from the incoming particles in $\sigma(q'X \rightarrow Y)$ 
+is $1/(2p'^0 2E_X)$ while the correct one for $\sigma(qX \rightarrow gY)$ is $1/(2p 2E_X)$, so in $\sigma_{\text{fact}}$ 
+we eliminate the unwanted $1/2p'^0$. The remaining terms above describe the cross section of the gluon splitting, 
+with the outgoing quark momentum unintegrated and the inclusion of its propagator squared, as announced. \\ 
+Now let us express $d^3k = d|p(1-z)|d^2p_{\perp} = p\,dz\,\pi\, dp_{\perp}^2$, use the definition $g^2 = 4\pi \alpha_s$, and use the explicit expressions for 
+the momenta : 
+
+\begin{align}
+  \sigma_{\text{fact}} &= 2zp\; \frac{1}{2p}\int \frac{p\,dz\,\pi\, dp_{\perp}^2}{8\pi^3}\frac{1}{2(1-z)p}
+   \left[\frac{4}{3}\frac{8\pi \alpha_s p_{\perp}^2}{z(1-z)}\left(\frac{1+z^2}{1-z}\right)\right] \frac{(1-z)^2}{p_{\perp}^4} \nonumber \\
+   &= \int_{0}^{1} dz \int_{\mu_0^2}^{\mu_f^2} \frac{dp_{\perp}^2}{p_{\perp}^2} \frac{\alpha_s}{2\pi} 
+   \left[\frac{4}{3}\left(\frac{1+z^2}{1-z}\right)\right] \nonumber \\ 
+   &= \int_{0}^{1} dz\; \frac{\alpha_s}{2\pi}\, \ln\left(\frac{\mu_f^2}{\mu_0^2}\right)\ 
+   \left[\frac{4}{3}\left(\frac{1+z^2}{1-z}\right)\right]
+\end{align}
+
+The transverse momentum integral has been performed from a lower cut-off (as there physically is : the quark mass, that 
+we had negliged all throughout) to the desired factorisation scale $\mu_f^2$.
 
 \newpage
 
