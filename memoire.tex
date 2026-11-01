@@ -27,12 +27,15 @@
 \usepackage[cal=boondoxo]{mathalfa} % mathcal
 \usepackage{mathtools}
 \usepackage{mismath}
+\usepackage{bm}
+\usepackage{amsmath}
 
 \usepackage{xcolor}
 \definecolor{taucolor}{rgb}{0.0,0.2,0.4} 
 \usepackage[colorlinks=true,allcolors=taucolor]{hyperref}
 \usepackage{cleveref}
 \usepackage{bookmark}
+
 
 \newcommand{\figlabel}{{Fig.}}
 \newcommand{\figslabel}{{Figs.}}
@@ -708,7 +711,7 @@ lectures. I used \cite{hj_lect} and \cite{Lelek} as a guide to complete it.}\\
     \begin{align}
       \text{gluons : }\quad & xf(x, \mu_0^2) = 1.7\, x^{-0.1} (1-x)^5 \\
       \text{down (valence) : }\quad & xf(x, \mu_0^2) = 3.064320\, x^{0.8} (1-x)^4 \\
-      \text{down (sea) : }\quad & xf(x, \mu_0^2) = 0.1939875\, x^{-0.1} (1-x)^6 \\
+      \text{down (sea) : }\quad & xf(x, \mu_0^2) = 0.1939875\, x^{-0.1} (1-x)^6 
     \end{align}
     \endgroup
     
@@ -878,7 +881,167 @@ virtual quark is obtained the same way by substituting $p_{\perp}^2/2zp \rightar
 Nevertheless, we will stick to the definitions at \ref{app:momenta} for the computation of the matrix element 
 as it yields the same result up to $\bigO(p_{\perp}^2)$ terms (thus $\bigO(p_{\perp}^3)$ terms for the squared matrix element).\\ 
 
-A fermion spinor $u(p,s)$ is represented by a 4-component column vector. 
+A fermion spinor $u(p,s)$ is represented by a 4-component column vector (and let us remind that the adjoint is $\bar{u} = u^{\dagger}\,\gamma^0$). It can be further subdivided in two 
+helicity components, each represented by a 2-component vector, with then $u(p,s) = (u_L(p,s),\,u_R(p,s))^T$. 
+The detailed expression of the left-handed component is 
+
+\begin{equation}
+  u_L(p,s) = \sqrt{p \cdot \sigma}\ \xi^s \quad \xrightarrow[\text{high energy}]{} \quad
+  \sqrt{2p^0}\,\frac{1}{2}(I - \bm{\hat{p}}\cdot\bm{\sigma})\, \xi^s
+\end{equation}
+
+With the normalised 2-components spinors $\xi^{\uparrow} = (1,\,0)^T$ for spin up and $\xi^{\downarrow} = (0,\,1)^T$ 
+for spin down. Here $\bm{\hat{p}}$ is the 3-component spatial part of the momentum vector divided by $p^0$, and we have introduced 
+the notation $\sigma \equiv (1,\,\bm{\sigma}) \equiv (1,\, \sigma^1,\, \sigma^2,\, \sigma^3)$ for the Pauli matrices (and 
+$\bar{\sigma} \equiv (1,\, -\bm{\sigma})$). In helicity basis, the Pauli and gamma matrices are : 
+
+\begin{equation}
+  \renewcommand{\arraystretch}{1}
+  \sigma^1 = 
+  \begin{pmatrix}
+    \;0 & 1\; \\
+    \;1 & 0\;
+  \end{pmatrix} \quad ; \quad 
+  \sigma^2 = 
+  \begin{pmatrix}
+    \;0 & -i\; \\ 
+    \;i & 0\;
+  \end{pmatrix} \quad ; \quad 
+  \sigma^3 = 
+  \begin{pmatrix}
+    \;1 & 0\; \\ 
+    \;0 & -1\;
+  \end{pmatrix} \quad ; \quad 
+  \gamma^{\mu} = 
+  \begin{pmatrix}
+    \;0 & \sigma^\mu\; \\
+    \;\bar{\sigma}^\mu & 0\;
+  \end{pmatrix}
+\end{equation}
+
+In the massless limit for the quarks, the spin and helicity are linked, so a left-handed 
+quark necessarily has spin down ($u_L(p,\uparrow) = 0$), and a right-handed one has spin up 
+($u_R(p,\downarrow) = 0$). Then we will do the following computation per helicity cases, and we won't have 
+to sum over the spins $s, s'$. We can also note that the helicity of the quark must be conserved. For left-handed 
+quarks, we have : 
+
+\begin{equation}
+  \renewcommand{\arraystretch}{1}
+  u_L(p,\downarrow) = \sqrt{2p}
+  \begin{pmatrix}
+    \;0\; \\ 
+    \;1\;
+  \end{pmatrix} \quad ; \quad 
+  \bar{u}_L(p',\downarrow) = \sqrt{2zp}
+  \begin{pmatrix}
+    -p_{\perp}/2zp \\ 
+    1
+  \end{pmatrix}
+\end{equation}
+
+
+In the massless limit for gluon (which is correct for real gluons, and close enough 
+for the slightly off-shell gluon treated here), only the transverse polarisations are nonzero. We can take 
+the ones with a defined helicity : 
+
+\begin{equation}
+  \varepsilon^*(k,L) = \frac{1}{\sqrt{2}}\left(0,\,1,\,i,\, \frac{p_{\perp}}{(1-z)p}\right) \quad ; \quad 
+  \varepsilon^*(k,R) = \frac{1}{\sqrt{2}}\left(0,\,1,\,-i,\, \frac{p_{\perp}}{(1-z)p}\right)
+\end{equation}
+
+(One can check that these are indeed transverse since $\varepsilon \cdot k = 0$). With all that, 
+we can begin our calculations. The matrix element would be 
+
+\begin{equation}
+  i\mathcal{M} = (-ig)\,\bar{u}_L(p',\downarrow)\,T^A_{ba}\,\gamma^\mu \, u_L(p,\downarrow)\, \varepsilon^*_\mu(k,\lambda)
+\end{equation}
+
+Separating with respect to the helicities (let us recall that the helicity is conserved for the quark) : 
+
+\begin{align}
+  \renewcommand{\arraystretch}{1}
+  i\mathcal{M}(q_L \rightarrow q_L\,g_L) &= (-ig)\,u_L^{\dagger}(p',\downarrow)\, T^A_{ba}\,
+  (-\sigma^i)\, u_L(p,\downarrow)\, \varepsilon_i^*(k, L) \nonumber \\
+  &= ig\sqrt{2zp}
+  \begin{pmatrix}
+    \frac{-p_{\perp}}{2zp}, & 1
+  \end{pmatrix}
+  \, T^A_{ba}\, \frac{1}{\sqrt{2}} \left[
+    \renewcommand{\arraystretch}{1}
+    \begin{pmatrix}
+      \;0 & 1\; \\ 
+      \;1 & 0\;
+    \end{pmatrix} + 
+    \begin{pmatrix}
+      \;0 & 1\; \\ 
+      \;-1 & 0\;
+    \end{pmatrix} + \frac{p_{\perp}}{(1-z)p}
+    \begin{pmatrix}
+    \;1 & 0\; \\ 
+    \;0 & -1\;
+  \end{pmatrix} 
+  \right] \, \sqrt{2p}\, 
+  \renewcommand{\arraystretch}{1}
+  \begin{pmatrix}
+    \;0\; \\ 
+    \;1\;
+  \end{pmatrix} \nonumber \\ 
+  &= ig\, T^A_{ba}\,p\sqrt{2z}\, \left( -\frac{p_{\perp}}{zp} -\frac{p_{\perp}}{(1-z)p} \right) 
+  \nonumber \\ 
+  &= -ig\, T^A_{ba}\,\frac{\sqrt{2z}}{z(1-z)}\,p_{\perp}
+\end{align}
+
+\begin{align}
+  \renewcommand{\arraystretch}{1}
+  i\mathcal{M}(q_L \rightarrow q_L\,g_R) &= (-ig)\,u_L^{\dagger}(p',\downarrow)\, T^A_{ba}\,
+  (-\sigma^i)\, u_L(p,\downarrow)\, \varepsilon_i^*(k, L) \nonumber \\
+  &= ig\sqrt{2zp}
+  \begin{pmatrix}
+    \frac{-p_{\perp}}{2zp}, & 1
+  \end{pmatrix}
+  \, T^A_{ba}\, \frac{1}{\sqrt{2}} \left[
+    \renewcommand{\arraystretch}{1}
+    \begin{pmatrix}
+      \;0 & 1\; \\ 
+      \;1 & 0\;
+    \end{pmatrix} + 
+    \begin{pmatrix}
+      \;0 & -1\; \\ 
+      \;1 & 0\;
+    \end{pmatrix} + \frac{p_{\perp}}{(1-z)p}
+    \begin{pmatrix}
+    \;1 & 0\; \\ 
+    \;0 & -1\;
+  \end{pmatrix} 
+  \right] \, \sqrt{2p}\, 
+  \renewcommand{\arraystretch}{1}
+  \begin{pmatrix}
+    \;0\; \\ 
+    \;1\;
+  \end{pmatrix} \nonumber \\ 
+  &= ig\, T^A_{ba}\,p\sqrt{2z}\, \left( -\frac{p_{\perp}}{(1-z)p} \right) 
+  \nonumber \\ 
+  &= -ig\, T^A_{ba}\,\frac{\sqrt{2z}}{(1-z)}\,p_{\perp}
+\end{align}
+
+This interaction is invariant under parity change, so the matrix elements are the same under 
+$L \leftrightarrow R$, and thus we already know the results for right-handed quarks. 
+We can move on to the calculation of the squared matrix element. We sum on the outgoing
+colours and helicities, and average on the incoming one. The averaging yields a $1/6$ prefactor (one over 2 helicities 
+times 3 quark colours). We have
+
+\begin{align}
+  \frac{1}{6}\sum_{A, a, b}\sum_{h,h'=\{L,R\}} &|\mathcal{M}(q_h \rightarrow q_h\,g_{h'})\mathcal{M}^{\dagger}(q_h \rightarrow q_h\,g_{h'})| \nonumber \\
+  =& \frac{1}{6}\sum_{A, a, b} \left(T^A_{ba}\,T^A_{ab}\right)\left( 2\,g^2\frac{2z}{z^2(1-z)^2}p^2_{\perp} 
+  + 2\,g^2\frac{2z}{(1-z)^2}p^2_{\perp} \right) \nonumber \\
+  =& \frac{8}{3}\frac{g^2 p_{\perp}^2}{z(1-z)}\left[\frac{1+z^2}{1-z}\right]
+\end{align}
+
+Where we used that the Gell-Mann matrices are hermitian and that 
+
+\begin{equation}
+  \frac{1}{3}\sum_{A, a, b} T^A_{ba}\,T^A_{ab} = \frac{4}{3}
+\end{equation}
 
 
 \newpage

@@ -1,0 +1,284 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global/global}
+    \entry{Ellis_Stirling_Webber_1996}{book}{}{}
+      \name{author}{3}{}{%
+        {{hash=57269400df8a9ddea71f0aa38b7ae4c5}{%
+           family={Ellis},
+           familyi={E\bibinitperiod},
+           given={R.\bibnamedelimi K.},
+           giveni={R\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=93e71c6a18e29a3e0a3da780308fb4d4}{%
+           family={Stirling},
+           familyi={S\bibinitperiod},
+           given={W.\bibnamedelimi J.},
+           giveni={W\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=fab4c5289b2146af0bcda20af58ba567}{%
+           family={Webber},
+           familyi={W\bibinitperiod},
+           given={B.\bibnamedelimi R.},
+           giveni={B\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{3d66ead4cb3458c713c70efd2e9ccb17}
+      \strng{fullhash}{3d66ead4cb3458c713c70efd2e9ccb17}
+      \strng{fullhashraw}{3d66ead4cb3458c713c70efd2e9ccb17}
+      \strng{bibnamehash}{3d66ead4cb3458c713c70efd2e9ccb17}
+      \strng{authorbibnamehash}{3d66ead4cb3458c713c70efd2e9ccb17}
+      \strng{authornamehash}{3d66ead4cb3458c713c70efd2e9ccb17}
+      \strng{authorfullhash}{3d66ead4cb3458c713c70efd2e9ccb17}
+      \strng{authorfullhashraw}{3d66ead4cb3458c713c70efd2e9ccb17}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{\textit{Textbook on phenomenological QCD, and topics related to its study at high-energy colliders.}}
+      \field{series}{Cambridge Monographs on Particle Physics, Nuclear Physics and Cosmology}
+      \field{title}{QCD and Collider Physics}
+      \field{year}{1996}
+      \keyw{sourcebook}
+    \endentry
+    \entry{cours1}{unpublished}{}{}
+      \name{author}{1}{}{%
+        {{hash=a92284fcb2fed9895ba9f0b451178af2}{%
+           family={Favart},
+           familyi={F\bibinitperiod},
+           given={Laurent},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{a92284fcb2fed9895ba9f0b451178af2}
+      \strng{fullhash}{a92284fcb2fed9895ba9f0b451178af2}
+      \strng{fullhashraw}{a92284fcb2fed9895ba9f0b451178af2}
+      \strng{bibnamehash}{a92284fcb2fed9895ba9f0b451178af2}
+      \strng{authorbibnamehash}{a92284fcb2fed9895ba9f0b451178af2}
+      \strng{authornamehash}{a92284fcb2fed9895ba9f0b451178af2}
+      \strng{authorfullhash}{a92284fcb2fed9895ba9f0b451178af2}
+      \strng{authorfullhashraw}{a92284fcb2fed9895ba9f0b451178af2}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{\textit{The notes of the lecture on phenomenological QCD I attended as a graduate student.}}
+      \field{note}{Lecture notes from the ULB}
+      \field{title}{Physique des interactions fortes}
+      \field{year}{2024-2025}
+      \keyw{sourcebook}
+    \endentry
+    \entry{Halzen:1984mc}{book}{}{}
+      \name{author}{2}{}{%
+        {{hash=5b34738fc903ff7302e22f9f4cfd4ee1}{%
+           family={Halzen},
+           familyi={H\bibinitperiod},
+           given={Francis},
+           giveni={F\bibinitperiod}}}%
+        {{hash=d1d926403429b3e318f9bdb922a8fb3f}{%
+           family={Martin},
+           familyi={M\bibinitperiod},
+           given={Alan},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York, USA}%
+      }
+      \list{publisher}{1}{%
+        {John Wiley \& Sons}%
+      }
+      \strng{namehash}{ba5f07855eeba1e1fb7ee72d29d863ad}
+      \strng{fullhash}{ba5f07855eeba1e1fb7ee72d29d863ad}
+      \strng{fullhashraw}{ba5f07855eeba1e1fb7ee72d29d863ad}
+      \strng{bibnamehash}{ba5f07855eeba1e1fb7ee72d29d863ad}
+      \strng{authorbibnamehash}{ba5f07855eeba1e1fb7ee72d29d863ad}
+      \strng{authornamehash}{ba5f07855eeba1e1fb7ee72d29d863ad}
+      \strng{authorfullhash}{ba5f07855eeba1e1fb7ee72d29d863ad}
+      \strng{authorfullhashraw}{ba5f07855eeba1e1fb7ee72d29d863ad}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{\textit{Textbook on the Standard Model, with some phenomenological approaches of QCD.}}
+      \field{title}{Quarks \& Leptons: An introductory course in modern particle physics}
+      \field{year}{1984}
+      \keyw{sourcebook}
+    \endentry
+    \entry{Hautmann_2018}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=8bd84310b0bb2cc56052b7dd6f3aabed}{%
+           family={Hautmann},
+           familyi={H\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=3c850fc91890e515c30bee1bc9ffcdfa}{%
+           family={Jung},
+           familyi={J\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=70dbb450117f41014d0b3a54f59e07f4}{%
+           family={Lelek},
+           familyi={L\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=2c48feaf82a91103e201fdbdff2c0fba}{%
+           family={Radescu},
+           familyi={R\bibinitperiod},
+           given={V.},
+           giveni={V\bibinitperiod}}}%
+        {{hash=707a74870128c6813154856760da1ca0}{%
+           family={Žlebčík},
+           familyi={Ž\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media LLC}%
+      }
+      \strng{namehash}{2999c0479650d54975fbcb5a4d47e59f}
+      \strng{fullhash}{90cd7abfc719fcd36bc018d85860f3d5}
+      \strng{fullhashraw}{90cd7abfc719fcd36bc018d85860f3d5}
+      \strng{bibnamehash}{2999c0479650d54975fbcb5a4d47e59f}
+      \strng{authorbibnamehash}{2999c0479650d54975fbcb5a4d47e59f}
+      \strng{authornamehash}{2999c0479650d54975fbcb5a4d47e59f}
+      \strng{authorfullhash}{90cd7abfc719fcd36bc018d85860f3d5}
+      \strng{authorfullhashraw}{90cd7abfc719fcd36bc018d85860f3d5}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{\textit{On the application of the PB-TMD method at NLO to fit on HERA data.}}
+      \field{issn}{1029-8479}
+      \field{journaltitle}{Journal of High Energy Physics}
+      \field{month}{1}
+      \field{number}{1}
+      \field{title}{Collinear and TMD quark and gluon densities from parton branching solution of QCD evolution equations}
+      \field{volume}{2018}
+      \field{year}{2018}
+      \verb{doi}
+      \verb 10.1007/jhep01(2018)070
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1007/JHEP01(2018)070
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1007/JHEP01(2018)070
+      \endverb
+      \keyw{article}
+    \endentry
+    \entry{hj_lect}{unpublished}{}{}
+      \name{author}{1}{}{%
+        {{hash=76515796a875dbb4a37460fd38a132d8}{%
+           family={Jung},
+           familyi={J\bibinitperiod},
+           given={Hannes},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{76515796a875dbb4a37460fd38a132d8}
+      \strng{fullhash}{76515796a875dbb4a37460fd38a132d8}
+      \strng{fullhashraw}{76515796a875dbb4a37460fd38a132d8}
+      \strng{bibnamehash}{76515796a875dbb4a37460fd38a132d8}
+      \strng{authorbibnamehash}{76515796a875dbb4a37460fd38a132d8}
+      \strng{authornamehash}{76515796a875dbb4a37460fd38a132d8}
+      \strng{authorfullhash}{76515796a875dbb4a37460fd38a132d8}
+      \strng{authorfullhashraw}{76515796a875dbb4a37460fd38a132d8}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{\textit{Lecture notes on phenomenological QCD and Monte Carlo methods.}}
+      \field{note}{Lecture notes from the 2016 Cracow winter course}
+      \field{title}{QCD and Monte Carlo}
+      \field{year}{2016}
+      \verb{urlraw}
+      \verb https://www.desy.de/~jung/qcd_and_mc_2016/QCD_and_MC_2016_%28Cracow%29.html
+      \endverb
+      \verb{url}
+      \verb https://www.desy.de/~jung/qcd_and_mc_2016/QCD_and_MC_2016_%28Cracow%29.html
+      \endverb
+      \keyw{sourcebook}
+    \endentry
+    \entry{Lelek}{thesis}{}{}
+      \name{author}{1}{}{%
+        {{hash=d2f4f40872dc2a48fe598a65281e7644}{%
+           family={Lelek},
+           familyi={L\bibinitperiod},
+           given={Aleksandra},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Universität Hamburg}%
+      }
+      \strng{namehash}{d2f4f40872dc2a48fe598a65281e7644}
+      \strng{fullhash}{d2f4f40872dc2a48fe598a65281e7644}
+      \strng{fullhashraw}{d2f4f40872dc2a48fe598a65281e7644}
+      \strng{bibnamehash}{d2f4f40872dc2a48fe598a65281e7644}
+      \strng{authorbibnamehash}{d2f4f40872dc2a48fe598a65281e7644}
+      \strng{authornamehash}{d2f4f40872dc2a48fe598a65281e7644}
+      \strng{authorfullhash}{d2f4f40872dc2a48fe598a65281e7644}
+      \strng{authorfullhashraw}{d2f4f40872dc2a48fe598a65281e7644}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{\textit{On the developpement of the PB-TMD method.}}
+      \field{title}{Determination of TMD parton densities from HERA data and application to pp processes}
+      \field{type}{phdthesis}
+      \field{year}{2018}
+      \keyw{thesis}
+    \endentry
+    \entry{Peskin}{book}{}{}
+      \name{author}{2}{}{%
+        {{hash=e148b6b43275e52828b8df297254414c}{%
+           family={Peskin},
+           familyi={P\bibinitperiod},
+           given={Michael\bibnamedelima Edward},
+           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=cc0fe4ad0bcb2f8883e7f5e5b5287dd9}{%
+           family={Schroeder},
+           familyi={S\bibinitperiod},
+           given={Daniel\bibnamedelima V.},
+           giveni={D\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Westview Press}%
+      }
+      \strng{namehash}{bd0b09f9d4658a6110c7cf3ae280532f}
+      \strng{fullhash}{bd0b09f9d4658a6110c7cf3ae280532f}
+      \strng{fullhashraw}{bd0b09f9d4658a6110c7cf3ae280532f}
+      \strng{bibnamehash}{bd0b09f9d4658a6110c7cf3ae280532f}
+      \strng{authorbibnamehash}{bd0b09f9d4658a6110c7cf3ae280532f}
+      \strng{authornamehash}{bd0b09f9d4658a6110c7cf3ae280532f}
+      \strng{authorfullhash}{bd0b09f9d4658a6110c7cf3ae280532f}
+      \strng{authorfullhashraw}{bd0b09f9d4658a6110c7cf3ae280532f}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{\textit{Textbook on QFT, with an emphasis on the computations.}}
+      \field{note}{Reading, USA: Addison-Wesley (1995) 842 p}
+      \field{title}{{An Introduction to Quantum Field Theory}}
+      \field{year}{1995}
+      \keyw{sourcebook}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
