@@ -42,11 +42,17 @@
 \newcommand{\tablabel}{{Table}}
 \newcommand{\captionlabelcode}{{Code}}   
 \newcommand{\eqlabel}{{Equation}}
+\newcommand{\chaplabel}{{Chapter}}
+\newcommand{\seclabel}{{Section}}
+\newcommand{\subseclabel}{{subsection}}
 \newcommand{\figref}[1]{\hyperref[#1]{\figlabel~\ref*{#1}}}
 \newcommand{\figsref}[1]{\hyperref[#1]{\figslabel~\ref*{#1}}}
 \newcommand{\tabref}[1]{\hyperref[#1]{\tablabel~\ref*{#1}}}
 \newcommand{\coderef}[1]{\hyperref[#1]{\captionlabelcode~\ref*{#1}}}
 \newcommand{\equref}[1]{\hyperref[#1]{\eqlabel~\ref*{#1}}}
+\newcommand{\chapref}[1]{\hyperref[#1]{\chaplabel~\ref*{#1}}}
+\newcommand{\secref}[1]{\hyperref[#1]{\seclabel~\ref*{#1}}}
+\newcommand{\subsecref}[1]{\hyperref[#1]{\subseclabel~\ref*{#1}}}
 
 \setlength{\tabcolsep}{18pt}
 \renewcommand{\arraystretch}{1.5}
@@ -155,6 +161,7 @@ references used here are \cite{cours1}, \cite{Halzen:1984mc}, \cite{Lelek}, \cit
 \newpage
 
 \chapter{A simplified parton evolution}
+\label{chap:simppe}
 
 In this chapter, we will show how to numerically compute PDFs and obtain transverse momentum 
 distributions with a parton 
@@ -1076,8 +1083,16 @@ the momenta :
    \left[\frac{4}{3}\left(\frac{1+z^2}{1-z}\right)\right]
 \end{align}
 
-The transverse momentum integral has been performed from a lower cut-off (as there physically is : the quark mass, that 
-we had negliged all throughout) to the desired factorisation scale $\mu_f^2$.
+The transverse momentum integral has been performed from a lower cut-off $\mu_0^2$ (as there physically is : the quark mass, that 
+we had negliged all throughout) to the desired factorisation scale $\mu_f^2$. We have thus found the LO 
+quark-quark splitting function 
+
+\begin{equation}
+  P_{qq}(z) = \frac{4}{3}\frac{1 + z^2}{1 - z}
+\end{equation}
+
+It is the one used for the simple parton evolution method of \chapref{chap:simppe}, notably. \\ 
+But there is more to say about it. [discussion fonction de branchement compète]
 
 \newpage
 

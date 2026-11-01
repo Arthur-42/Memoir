@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.10.30)  1 NOV 2026 20:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.10.30)  1 NOV 2026 21:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -865,7 +865,7 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 \@quotelevel=\count467
 \@quotereset=\count468
 LaTeX Font Info:    Font shape `T1/zpltosf/m/n' will be
-(Font)              scaled to size 10.0pt on input line 64.
+(Font)              scaled to size 10.0pt on input line 70.
 (out_dir/memoire.aux
 
 LaTeX Warning: Label `fig:simp_3' multiply defined.
@@ -948,44 +948,44 @@ LaTeX Warning: Label `fig:simp_kt2@cref' multiply defined.
 )
 \openout1 = `memoire.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/npxmi/m/it on input line 64.
-LaTeX Font Info:    Trying to load font information for OML+npxmi on input line 64.
+LaTeX Font Info:    Checking defaults for OML/npxmi/m/it on input line 70.
+LaTeX Font Info:    Trying to load font information for OML+npxmi on input line 70.
  (c:/texlive/2025/texmf-dist/tex/latex/newpx/omlnpxmi.fd
 File: omlnpxmi.fd 2013/03/21 Fontinst v1.933 font definitions for OML/npxmi.
 )
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for U/npxexa/m/n on input line 64.
-LaTeX Font Info:    Trying to load font information for U+npxexa on input line 64.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for U/npxexa/m/n on input line 70.
+LaTeX Font Info:    Trying to load font information for U+npxexa on input line 70.
  (c:/texlive/2025/texmf-dist/tex/latex/newpx/unpxexa.fd
 File: unpxexa.fd 2013/03/24 Fontinst v1.933 font definitions for U/npxexa.
 )
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for LMS/npxsy/m/n on input line 64.
-LaTeX Font Info:    Trying to load font information for LMS+npxsy on input line 64.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for LMS/npxsy/m/n on input line 70.
+LaTeX Font Info:    Trying to load font information for LMS+npxsy on input line 70.
  (c:/texlive/2025/texmf-dist/tex/latex/newpx/lmsnpxsy.fd
 File: lmsnpxsy.fd 2016/07/04 Fontinst v1.933 font definitions for LMS/npxsy.
 )
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for LMX/npxexx/m/n on input line 64.
-LaTeX Font Info:    Trying to load font information for LMX+npxexx on input line 64.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for LMX/npxexx/m/n on input line 70.
+LaTeX Font Info:    Trying to load font information for LMX+npxexx on input line 70.
  (c:/texlive/2025/texmf-dist/tex/latex/newpx/lmxnpxexx.fd
 File: lmxnpxexx.fd 2016/07/04 Fontinst v1.933 font definitions for LMX/npxexx.
 )
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
 Package biblatex Info: Trying to load language 'UKenglish'...
 Package biblatex Info: ... file 'UKenglish.lbx' found.
  (c:/texlive/2025/texmf-dist/tex/latex/biblatex/lbx/UKenglish.lbx
@@ -1012,8 +1012,8 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'memoire.bbl' found.
  (out_dir/memoire.bbl)
-Package biblatex Info: Reference section=0 on input line 64.
-Package biblatex Info: Reference segment=0 on input line 64.
+Package biblatex Info: Reference section=0 on input line 70.
+Package biblatex Info: Reference segment=0 on input line 70.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1073,81 +1073,81 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
  (c:/texlive/2025/texmf-dist/tex/latex/upquote/upquote.sty
 Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verbatim
 )
-LaTeX Info: Command `\dddot' is already robust on input line 64.
-LaTeX Info: Command `\ddddot' is already robust on input line 64.
-Package hyperref Info: Link coloring ON on input line 64.
+LaTeX Info: Command `\dddot' is already robust on input line 70.
+LaTeX Info: Command `\ddddot' is already robust on input line 70.
+Package hyperref Info: Link coloring ON on input line 70.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    Font shape `T1/zpltosf/m/n' will be
-(Font)              scaled to size 20.74pt on input line 70.
+(Font)              scaled to size 20.74pt on input line 76.
 LaTeX Font Info:    Font shape `T1/zpltosf/m/sc' will be
-(Font)              scaled to size 20.74pt on input line 70.
+(Font)              scaled to size 20.74pt on input line 76.
 LaTeX Font Info:    Font shape `T1/zpltosf/m/n' will be
-(Font)              scaled to size 17.28pt on input line 72.
+(Font)              scaled to size 17.28pt on input line 78.
 LaTeX Font Info:    Font shape `T1/zpltosf/m/n' will be
-(Font)              scaled to size 14.4pt on input line 74.
+(Font)              scaled to size 14.4pt on input line 80.
 <figures/ULBlogo.jpg, id=4, 900.4842pt x 900.4842pt>
 File: figures/ULBlogo.jpg Graphic file (type jpg)
 <use figures/ULBlogo.jpg>
-Package pdftex.def Info: figures/ULBlogo.jpg  used on input line 80.
+Package pdftex.def Info: figures/ULBlogo.jpg  used on input line 86.
 (pdftex.def)             Requested size: 120.92421pt x 120.91432pt.
 LaTeX Font Info:    Font shape `T1/zpltosf/m/n' will be
-(Font)              scaled to size 24.88pt on input line 86.
-LaTeX Font Info:    Trying to load font information for T1+zi4 on input line 90.
+(Font)              scaled to size 24.88pt on input line 92.
+LaTeX Font Info:    Trying to load font information for T1+zi4 on input line 96.
  (c:/texlive/2025/texmf-dist/tex/latex/inconsolata/t1zi4.fd
 File: t1zi4.fd 2018/01/14 T1/zi4 (Inconsolata)
 )
 LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
-(Font)              scaled to size 10.0pt on input line 90.
-LaTeX Font Info:    Trying to load font information for OT1+minzpl on input line 90.
+(Font)              scaled to size 10.0pt on input line 96.
+LaTeX Font Info:    Trying to load font information for OT1+minzpl on input line 96.
  (c:/texlive/2025/texmf-dist/tex/latex/newpx/ot1minzpl.fd
 File: ot1minzpl.fd 2021/05/25 v1.0 font definition file for OT1/minzpl/TLF
 )
 LaTeX Font Info:    Font shape `OT1/minzpl/m/n' will be
-(Font)              scaled to size 10.0pt on input line 90.
+(Font)              scaled to size 10.0pt on input line 96.
 LaTeX Font Info:    Font shape `OT1/minzpl/m/n' will be
-(Font)              scaled to size 7.3pt on input line 90.
+(Font)              scaled to size 7.3pt on input line 96.
 LaTeX Font Info:    Font shape `OT1/minzpl/m/n' will be
-(Font)              scaled to size 5.5pt on input line 90.
-LaTeX Font Info:    Trying to load font information for U+npxmia on input line 90.
+(Font)              scaled to size 5.5pt on input line 96.
+LaTeX Font Info:    Trying to load font information for U+npxmia on input line 96.
  (c:/texlive/2025/texmf-dist/tex/latex/newpx/unpxmia.fd
 File: unpxmia.fd 2013/03/24 Fontinst v1.933 font definitions for U/npxmia.
 )
-LaTeX Font Info:    Trying to load font information for U+npxsym on input line 90.
+LaTeX Font Info:    Trying to load font information for U+npxsym on input line 96.
  (c:/texlive/2025/texmf-dist/tex/latex/newpx/unpxsym.fd
 File: unpxsym.fd 2023/08/16 Fontinst v1.933 font definitions for U/npxsym.
 )
-LaTeX Font Info:    Trying to load font information for U+npxsyc on input line 90.
+LaTeX Font Info:    Trying to load font information for U+npxsyc on input line 96.
  (c:/texlive/2025/texmf-dist/tex/latex/newpx/unpxsyc.fd
 File: unpxsyc.fd 2013/03/24 Fontinst v1.933 font definitions for U/npxsyc.
 )
-LaTeX Font Info:    Trying to load font information for U+esvect on input line 90.
+LaTeX Font Info:    Trying to load font information for U+esvect on input line 96.
  (c:/texlive/2025/texmf-dist/tex/latex/esvect/uesvect.fd
 File: uesvect.fd 
 )
 
 LaTeX Font Warning: Font shape `U/esvect/m/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 90.
+(Font)              size <5> substituted on input line 96.
 
 LaTeX Font Info:    Font shape `OT1/minzpl/b/n' will be
-(Font)              scaled to size 10.0pt on input line 90.
-LaTeX Font Info:    Font shape `OT1/minzpl/b/n' will be
-(Font)              scaled to size 7.3pt on input line 90.
-LaTeX Font Info:    Font shape `OT1/minzpl/b/n' will be
-(Font)              scaled to size 5.5pt on input line 90.
-LaTeX Font Info:    Font shape `T1/zpltosf/m/n' will be
-(Font)              scaled to size 12.0pt on input line 96.
-LaTeX Font Info:    Font shape `T1/zpltosf/m/sc' will be
-(Font)              scaled to size 12.0pt on input line 96.
-LaTeX Font Info:    Font shape `T1/zpltosf/m/sc' will be
 (Font)              scaled to size 10.0pt on input line 96.
+LaTeX Font Info:    Font shape `OT1/minzpl/b/n' will be
+(Font)              scaled to size 7.3pt on input line 96.
+LaTeX Font Info:    Font shape `OT1/minzpl/b/n' will be
+(Font)              scaled to size 5.5pt on input line 96.
+LaTeX Font Info:    Font shape `T1/zpltosf/m/n' will be
+(Font)              scaled to size 12.0pt on input line 102.
+LaTeX Font Info:    Font shape `T1/zpltosf/m/sc' will be
+(Font)              scaled to size 12.0pt on input line 102.
+LaTeX Font Info:    Font shape `T1/zpltosf/m/sc' will be
+(Font)              scaled to size 10.0pt on input line 102.
 
 
 [1
 
 {c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2025/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tosf-pc.enc}{c:/texlive/2025/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tosf.enc}{c:/texlive/2025/texmf-dist/fonts/enc/dvips/inconsolata/i4-t1-5.enc} <./figures/ULBlogo.jpg>]
 LaTeX Font Info:    Font shape `T1/zpltosf/b/n' will be
-(Font)              scaled to size 24.88pt on input line 108.
+(Font)              scaled to size 24.88pt on input line 114.
  (out_dir/memoire.toc
 LaTeX Font Info:    Font shape `T1/zpltosf/b/n' will be
 (Font)              scaled to size 10.0pt on input line 4.
@@ -1161,16 +1161,16 @@ LaTeX Font Info:    Font shape `T1/zpltosf/b/n' will be
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.110 \newpage
+l.116 \newpage
                [1
 
 {c:/texlive/2025/texmf-dist/fonts/enc/dvips/newpx/px-lms.enc}]
 LaTeX Font Info:    Font shape `T1/zpltosf/b/n' will be
-(Font)              scaled to size 14.4pt on input line 112.
+(Font)              scaled to size 14.4pt on input line 118.
 
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 121--122
+Underfull \hbox (badness 10000) in paragraph at lines 127--128
 
  []
 
@@ -1181,7 +1181,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 121--122
 ]
 Chapter 1.
 LaTeX Font Info:    Font shape `T1/zpltosf/b/n' will be
-(Font)              scaled to size 20.74pt on input line 128.
+(Font)              scaled to size 20.74pt on input line 134.
 
 
 [4
@@ -1189,7 +1189,7 @@ LaTeX Font Info:    Font shape `T1/zpltosf/b/n' will be
 ]
 Chapter 2.
 
-Underfull \hbox (badness 10000) in paragraph at lines 137--146
+Underfull \hbox (badness 10000) in paragraph at lines 143--152
 
  []
 
@@ -1200,30 +1200,30 @@ Underfull \hbox (badness 10000) in paragraph at lines 137--146
 ]
 Chapter 3.
 
-Underfull \hbox (badness 10000) in paragraph at lines 159--165
+Underfull \hbox (badness 10000) in paragraph at lines 166--172
 
  []
 
 LaTeX Font Info:    Font shape `T1/zpltosf/m/it' will be
-(Font)              scaled to size 10.0pt on input line 168.
+(Font)              scaled to size 10.0pt on input line 175.
 LaTeX Font Info:    Font shape `T1/zpltosf/b/it' will be
-(Font)              scaled to size 10.0pt on input line 168.
+(Font)              scaled to size 10.0pt on input line 175.
 
-Underfull \hbox (badness 10000) in paragraph at lines 168--169
+Underfull \hbox (badness 10000) in paragraph at lines 175--176
 
  []
 
 LaTeX Font Info:    Font shape `T1/zpltosf/m/n' will be
-(Font)              scaled to size 7.3pt on input line 174.
+(Font)              scaled to size 7.3pt on input line 181.
 LaTeX Font Info:    Font shape `T1/zpltosf/m/n' will be
-(Font)              scaled to size 5.5pt on input line 174.
+(Font)              scaled to size 5.5pt on input line 181.
 
-Underfull \hbox (badness 10000) in paragraph at lines 193--195
+Underfull \hbox (badness 10000) in paragraph at lines 200--202
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 196--202
+Underfull \hbox (badness 10000) in paragraph at lines 203--209
 
  []
 
@@ -1232,12 +1232,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 196--202
 [6
 
 {c:/texlive/2025/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}]
-Underfull \hbox (badness 10000) in paragraph at lines 227--231
+Underfull \hbox (badness 10000) in paragraph at lines 234--238
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 266--270
+Underfull \hbox (badness 10000) in paragraph at lines 273--277
 
  []
 
@@ -1246,33 +1246,33 @@ Underfull \hbox (badness 10000) in paragraph at lines 266--270
 [7]
 
 [8]
-Underfull \hbox (badness 10000) in paragraph at lines 325--329
+Underfull \hbox (badness 10000) in paragraph at lines 332--336
 
  []
 
 <figures/a-walksz-Pgg.pdf, id=129, 569.12625pt x 544.0325pt>
 File: figures/a-walksz-Pgg.pdf Graphic file (type pdf)
 <use figures/a-walksz-Pgg.pdf>
-Package pdftex.def Info: figures/a-walksz-Pgg.pdf  used on input line 347.
+Package pdftex.def Info: figures/a-walksz-Pgg.pdf  used on input line 354.
 (pdftex.def)             Requested size: 149.94484pt x 143.3295pt.
 LaTeX Font Info:    Font shape `T1/zpltosf/m/n' will be
-(Font)              scaled to size 9.0pt on input line 348.
+(Font)              scaled to size 9.0pt on input line 355.
 <figures/a-walksktxy-Pgg.pdf, id=130, 569.12625pt x 544.0325pt>
 File: figures/a-walksktxy-Pgg.pdf Graphic file (type pdf)
 <use figures/a-walksktxy-Pgg.pdf>
-Package pdftex.def Info: figures/a-walksktxy-Pgg.pdf  used on input line 353.
+Package pdftex.def Info: figures/a-walksktxy-Pgg.pdf  used on input line 360.
 (pdftex.def)             Requested size: 149.94484pt x 143.3295pt.
 LaTeX Font Info:    Font shape `OT1/minzpl/m/n' will be
-(Font)              scaled to size 9.0pt on input line 354.
+(Font)              scaled to size 9.0pt on input line 361.
 LaTeX Font Info:    Font shape `OT1/minzpl/b/n' will be
-(Font)              scaled to size 9.0pt on input line 354.
+(Font)              scaled to size 9.0pt on input line 361.
 <figures/a-walkskt-Pgg.pdf, id=131, 569.12625pt x 544.0325pt>
 File: figures/a-walkskt-Pgg.pdf Graphic file (type pdf)
 <use figures/a-walkskt-Pgg.pdf>
-Package pdftex.def Info: figures/a-walkskt-Pgg.pdf  used on input line 359.
+Package pdftex.def Info: figures/a-walkskt-Pgg.pdf  used on input line 366.
 (pdftex.def)             Requested size: 149.94484pt x 143.3295pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 367--371
+Underfull \hbox (badness 10000) in paragraph at lines 374--378
 
  []
 
@@ -1282,64 +1282,64 @@ Underfull \hbox (badness 10000) in paragraph at lines 367--371
 <figures/gg_density_m1.png, id=274, 499.8675pt x 477.785pt>
 File: figures/gg_density_m1.png Graphic file (type png)
 <use figures/gg_density_m1.png>
-Package pdftex.def Info: figures/gg_density_m1.png  used on input line 395.
+Package pdftex.def Info: figures/gg_density_m1.png  used on input line 402.
 (pdftex.def)             Requested size: 217.66211pt x 208.04622pt.
 <figures/qq_density_m1.png, id=275, 499.8675pt x 477.785pt>
 File: figures/qq_density_m1.png Graphic file (type png)
 <use figures/qq_density_m1.png>
-Package pdftex.def Info: figures/qq_density_m1.png  used on input line 401.
+Package pdftex.def Info: figures/qq_density_m1.png  used on input line 408.
 (pdftex.def)             Requested size: 217.66211pt x 208.04622pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 409--414
+Underfull \hbox (badness 10000) in paragraph at lines 416--421
 
  []
 
 <figures/gg_kt_m1.png, id=276, 499.8675pt x 477.785pt>
 File: figures/gg_kt_m1.png Graphic file (type png)
 <use figures/gg_kt_m1.png>
-Package pdftex.def Info: figures/gg_kt_m1.png  used on input line 420.
+Package pdftex.def Info: figures/gg_kt_m1.png  used on input line 427.
 (pdftex.def)             Requested size: 217.66211pt x 208.04622pt.
 <figures/qq_kt_m1.png, id=277, 499.8675pt x 477.785pt>
 File: figures/qq_kt_m1.png Graphic file (type png)
 <use figures/qq_kt_m1.png>
-Package pdftex.def Info: figures/qq_kt_m1.png  used on input line 426.
+Package pdftex.def Info: figures/qq_kt_m1.png  used on input line 433.
 (pdftex.def)             Requested size: 217.66211pt x 208.04622pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 434--438
+Underfull \hbox (badness 10000) in paragraph at lines 441--445
 
  []
 
 
 
 [10 <./figures/gg_density_m1.png> <./figures/qq_density_m1.png> <./figures/gg_kt_m1.png> <./figures/qq_kt_m1.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 439--441
+Underfull \hbox (badness 10000) in paragraph at lines 446--448
 
  []
 
 <figures/genscalege.png, id=284, 631.6398pt x 523.9575pt>
 File: figures/genscalege.png Graphic file (type png)
 <use figures/genscalege.png>
-Package pdftex.def Info: figures/genscalege.png  used on input line 447.
+Package pdftex.def Info: figures/genscalege.png  used on input line 454.
 (pdftex.def)             Requested size: 217.66211pt x 180.55766pt.
 <figures/genscaleqe.png, id=286, 638.1441pt x 523.9575pt>
 File: figures/genscaleqe.png Graphic file (type png)
 <use figures/genscaleqe.png>
-Package pdftex.def Info: figures/genscaleqe.png  used on input line 453.
+Package pdftex.def Info: figures/genscaleqe.png  used on input line 460.
 (pdftex.def)             Requested size: 217.66211pt x 178.71083pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 461--471
+Underfull \hbox (badness 10000) in paragraph at lines 468--478
 
  []
 
 <figures/gg_density_mms.pdf, id=288, 569.12625pt x 544.0325pt>
 File: figures/gg_density_mms.pdf Graphic file (type pdf)
 <use figures/gg_density_mms.pdf>
-Package pdftex.def Info: figures/gg_density_mms.pdf  used on input line 477.
+Package pdftex.def Info: figures/gg_density_mms.pdf  used on input line 484.
 (pdftex.def)             Requested size: 217.66211pt x 208.0627pt.
 <figures/qq_density_mms.pdf, id=289, 569.12625pt x 544.0325pt>
 File: figures/qq_density_mms.pdf Graphic file (type pdf)
 <use figures/qq_density_mms.pdf>
-Package pdftex.def Info: figures/qq_density_mms.pdf  used on input line 483.
+Package pdftex.def Info: figures/qq_density_mms.pdf  used on input line 490.
 (pdftex.def)             Requested size: 217.66211pt x 208.0627pt.
 
 
@@ -1347,22 +1347,22 @@ Package pdftex.def Info: figures/qq_density_mms.pdf  used on input line 483.
 <figures/gg_kt_mms.pdf, id=385, 569.12625pt x 544.0325pt>
 File: figures/gg_kt_mms.pdf Graphic file (type pdf)
 <use figures/gg_kt_mms.pdf>
-Package pdftex.def Info: figures/gg_kt_mms.pdf  used on input line 502.
+Package pdftex.def Info: figures/gg_kt_mms.pdf  used on input line 509.
 (pdftex.def)             Requested size: 217.66211pt x 208.0627pt.
 <figures/qq_kt_mms.pdf, id=386, 569.12625pt x 544.0325pt>
 File: figures/qq_kt_mms.pdf Graphic file (type pdf)
 <use figures/qq_kt_mms.pdf>
-Package pdftex.def Info: figures/qq_kt_mms.pdf  used on input line 508.
+Package pdftex.def Info: figures/qq_kt_mms.pdf  used on input line 515.
 (pdftex.def)             Requested size: 217.66211pt x 208.0627pt.
 <figures/gensplige.png, id=387, 620.7993pt x 523.2348pt>
 File: figures/gensplige.png Graphic file (type png)
 <use figures/gensplige.png>
-Package pdftex.def Info: figures/gensplige.png  used on input line 526.
+Package pdftex.def Info: figures/gensplige.png  used on input line 533.
 (pdftex.def)             Requested size: 217.66211pt x 183.45427pt.
 <figures/genspliqe.png, id=388, 565.8741pt x 586.1097pt>
 File: figures/genspliqe.png Graphic file (type png)
 <use figures/genspliqe.png>
-Package pdftex.def Info: figures/genspliqe.png  used on input line 532.
+Package pdftex.def Info: figures/genspliqe.png  used on input line 539.
 (pdftex.def)             Requested size: 193.47578pt x 200.39256pt.
 
 
@@ -1370,32 +1370,32 @@ Package pdftex.def Info: figures/genspliqe.png  used on input line 532.
 <figures/a-walksz-Pgge5.pdf, id=490, 569.12625pt x 544.0325pt>
 File: figures/a-walksz-Pgge5.pdf Graphic file (type pdf)
 <use figures/a-walksz-Pgge5.pdf>
-Package pdftex.def Info: figures/a-walksz-Pgge5.pdf  used on input line 557.
+Package pdftex.def Info: figures/a-walksz-Pgge5.pdf  used on input line 564.
 (pdftex.def)             Requested size: 149.94484pt x 143.3295pt.
 <figures/a-walksktxy-Pgge5.pdf, id=491, 569.12625pt x 544.0325pt>
 File: figures/a-walksktxy-Pgge5.pdf Graphic file (type pdf)
 <use figures/a-walksktxy-Pgge5.pdf>
-Package pdftex.def Info: figures/a-walksktxy-Pgge5.pdf  used on input line 563.
+Package pdftex.def Info: figures/a-walksktxy-Pgge5.pdf  used on input line 570.
 (pdftex.def)             Requested size: 149.94484pt x 143.3295pt.
 <figures/a-walkskt-Pgge5.pdf, id=492, 569.12625pt x 544.0325pt>
 File: figures/a-walkskt-Pgge5.pdf Graphic file (type pdf)
 <use figures/a-walkskt-Pgge5.pdf>
-Package pdftex.def Info: figures/a-walkskt-Pgge5.pdf  used on input line 569.
+Package pdftex.def Info: figures/a-walkskt-Pgge5.pdf  used on input line 576.
 (pdftex.def)             Requested size: 149.94484pt x 143.3295pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 577--580
+Underfull \hbox (badness 10000) in paragraph at lines 584--587
 
  []
 
 <figures/genscalegz.png, id=494, 631.6398pt x 523.9575pt>
 File: figures/genscalegz.png Graphic file (type png)
 <use figures/genscalegz.png>
-Package pdftex.def Info: figures/genscalegz.png  used on input line 587.
+Package pdftex.def Info: figures/genscalegz.png  used on input line 594.
 (pdftex.def)             Requested size: 217.66211pt x 180.55766pt.
 <figures/genscaleqz.png, id=495, 638.1441pt x 523.9575pt>
 File: figures/genscaleqz.png Graphic file (type png)
 <use figures/genscaleqz.png>
-Package pdftex.def Info: figures/genscaleqz.png  used on input line 593.
+Package pdftex.def Info: figures/genscaleqz.png  used on input line 600.
 (pdftex.def)             Requested size: 217.66211pt x 178.71083pt.
 
 
@@ -1403,37 +1403,37 @@ Package pdftex.def Info: figures/genscaleqz.png  used on input line 593.
 <figures/genspligz.png, id=638, 620.7993pt x 523.2348pt>
 File: figures/genspligz.png Graphic file (type png)
 <use figures/genspligz.png>
-Package pdftex.def Info: figures/genspligz.png  used on input line 613.
+Package pdftex.def Info: figures/genspligz.png  used on input line 620.
 (pdftex.def)             Requested size: 217.66211pt x 183.45427pt.
 <figures/genspliqz.png, id=639, 565.8741pt x 586.1097pt>
 File: figures/genspliqz.png Graphic file (type png)
 <use figures/genspliqz.png>
-Package pdftex.def Info: figures/genspliqz.png  used on input line 619.
+Package pdftex.def Info: figures/genspliqz.png  used on input line 626.
 (pdftex.def)             Requested size: 193.47578pt x 200.39256pt.
 <figures/d-gg_density_mms.pdf, id=640, 569.12625pt x 544.0325pt>
 File: figures/d-gg_density_mms.pdf Graphic file (type pdf)
 <use figures/d-gg_density_mms.pdf>
-Package pdftex.def Info: figures/d-gg_density_mms.pdf  used on input line 635.
+Package pdftex.def Info: figures/d-gg_density_mms.pdf  used on input line 642.
 (pdftex.def)             Requested size: 217.66211pt x 208.0627pt.
 <figures/d-gg_kt_mms.pdf, id=641, 569.12625pt x 544.0325pt>
 File: figures/d-gg_kt_mms.pdf Graphic file (type pdf)
 <use figures/d-gg_kt_mms.pdf>
-Package pdftex.def Info: figures/d-gg_kt_mms.pdf  used on input line 641.
+Package pdftex.def Info: figures/d-gg_kt_mms.pdf  used on input line 648.
 (pdftex.def)             Requested size: 217.66211pt x 208.0627pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 649--654
+Underfull \hbox (badness 10000) in paragraph at lines 656--661
 
  []
 
 <figures/a-to-walksktxy-Pgg.pdf, id=643, 569.12625pt x 544.0325pt>
 File: figures/a-to-walksktxy-Pgg.pdf Graphic file (type pdf)
 <use figures/a-to-walksktxy-Pgg.pdf>
-Package pdftex.def Info: figures/a-to-walksktxy-Pgg.pdf  used on input line 662.
+Package pdftex.def Info: figures/a-to-walksktxy-Pgg.pdf  used on input line 669.
 (pdftex.def)             Requested size: 178.96547pt x 171.0723pt.
 <figures/a-to-walkskt-Pgg.pdf, id=644, 569.12625pt x 544.0325pt>
 File: figures/a-to-walkskt-Pgg.pdf Graphic file (type pdf)
 <use figures/a-to-walkskt-Pgg.pdf>
-Package pdftex.def Info: figures/a-to-walkskt-Pgg.pdf  used on input line 668.
+Package pdftex.def Info: figures/a-to-walkskt-Pgg.pdf  used on input line 675.
 (pdftex.def)             Requested size: 178.96547pt x 171.0723pt.
 
 
@@ -1441,15 +1441,15 @@ Package pdftex.def Info: figures/a-to-walkskt-Pgg.pdf  used on input line 668.
 <figures/to-gg_kt_mms.pdf, id=740, 569.12625pt x 544.0325pt>
 File: figures/to-gg_kt_mms.pdf Graphic file (type pdf)
 <use figures/to-gg_kt_mms.pdf>
-Package pdftex.def Info: figures/to-gg_kt_mms.pdf  used on input line 685.
+Package pdftex.def Info: figures/to-gg_kt_mms.pdf  used on input line 692.
 (pdftex.def)             Requested size: 217.66211pt x 208.0627pt.
 <figures/to-qq_kt_mms.pdf, id=741, 569.12625pt x 544.0325pt>
 File: figures/to-qq_kt_mms.pdf Graphic file (type pdf)
 <use figures/to-qq_kt_mms.pdf>
-Package pdftex.def Info: figures/to-qq_kt_mms.pdf  used on input line 691.
+Package pdftex.def Info: figures/to-qq_kt_mms.pdf  used on input line 698.
 (pdftex.def)             Requested size: 217.66211pt x 208.0627pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 699--703
+Underfull \hbox (badness 10000) in paragraph at lines 706--710
 
  []
 
@@ -1459,22 +1459,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 699--703
 <figures/nr-gluons-comp1.pdf, id=920, 569.12625pt x 541.02126pt>
 File: figures/nr-gluons-comp1.pdf Graphic file (type pdf)
 <use figures/nr-gluons-comp1.pdf>
-Package pdftex.def Info: figures/nr-gluons-comp1.pdf  used on input line 725.
+Package pdftex.def Info: figures/nr-gluons-comp1.pdf  used on input line 732.
 (pdftex.def)             Requested size: 217.66211pt x 206.91106pt.
 <figures/nr-downs-comp1.pdf, id=921, 569.12625pt x 541.02126pt>
 File: figures/nr-downs-comp1.pdf Graphic file (type pdf)
 <use figures/nr-downs-comp1.pdf>
-Package pdftex.def Info: figures/nr-downs-comp1.pdf  used on input line 731.
+Package pdftex.def Info: figures/nr-downs-comp1.pdf  used on input line 738.
 (pdftex.def)             Requested size: 217.66211pt x 206.91106pt.
 <figures/r-gluons-comp2.pdf, id=923, 569.12625pt x 541.02126pt>
 File: figures/r-gluons-comp2.pdf Graphic file (type pdf)
 <use figures/r-gluons-comp2.pdf>
-Package pdftex.def Info: figures/r-gluons-comp2.pdf  used on input line 758.
+Package pdftex.def Info: figures/r-gluons-comp2.pdf  used on input line 765.
 (pdftex.def)             Requested size: 217.66211pt x 206.91106pt.
 <figures/r-downs-comp2.pdf, id=924, 569.12625pt x 541.02126pt>
 File: figures/r-downs-comp2.pdf Graphic file (type pdf)
 <use figures/r-downs-comp2.pdf>
-Package pdftex.def Info: figures/r-downs-comp2.pdf  used on input line 764.
+Package pdftex.def Info: figures/r-downs-comp2.pdf  used on input line 771.
 (pdftex.def)             Requested size: 217.66211pt x 206.91106pt.
 
 
@@ -1483,7 +1483,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 [16 <./figures/nr-gluons-comp1.pdf, page is rotated 90 degrees> <./figures/nr-downs-comp1.pdf, page is rotated 90 degrees>]
-Underfull \hbox (badness 10000) in paragraph at lines 774--784
+Underfull \hbox (badness 10000) in paragraph at lines 781--791
 
  []
 
@@ -1507,113 +1507,113 @@ Chapter 5.
 
 ]
 LaTeX Font Info:    Font shape `OT1/minzpl/m/n' will be
-(Font)              scaled to size 14.4pt on input line 823.
+(Font)              scaled to size 14.4pt on input line 830.
 LaTeX Font Info:    Font shape `OT1/minzpl/m/n' will be
-(Font)              scaled to size 10.5pt on input line 823.
+(Font)              scaled to size 10.5pt on input line 830.
 LaTeX Font Info:    Font shape `OT1/minzpl/m/n' will be
-(Font)              scaled to size 7.9pt on input line 823.
+(Font)              scaled to size 7.9pt on input line 830.
 
 
 LaTeX Font Warning: Font shape `U/esvect/m/n' in size <10.5> not available
-(Font)              size <10.95> substituted on input line 823.
+(Font)              size <10.95> substituted on input line 830.
 
 LaTeX Font Info:    Font shape `OT1/minzpl/b/n' will be
-(Font)              scaled to size 14.4pt on input line 823.
+(Font)              scaled to size 14.4pt on input line 830.
 LaTeX Font Info:    Font shape `OT1/minzpl/b/n' will be
-(Font)              scaled to size 10.5pt on input line 823.
+(Font)              scaled to size 10.5pt on input line 830.
 LaTeX Font Info:    Font shape `OT1/minzpl/b/n' will be
-(Font)              scaled to size 7.9pt on input line 823.
+(Font)              scaled to size 7.9pt on input line 830.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 823.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 823.
+(hyperref)                removing `math shift' on input line 830.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 823.
+(hyperref)                removing `subscript' on input line 830.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 825--830
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 830.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 832--837
 
  []
 
 <figures/feyn-Pqq.pdf, id=1130, 192.59955pt x 137.99956pt>
 File: figures/feyn-Pqq.pdf Graphic file (type pdf)
 <use figures/feyn-Pqq.pdf>
-Package pdftex.def Info: figures/feyn-Pqq.pdf  used on input line 835.
+Package pdftex.def Info: figures/feyn-Pqq.pdf  used on input line 842.
 (pdftex.def)             Requested size: 241.84843pt x 173.29074pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 840--844
+Underfull \hbox (badness 10000) in paragraph at lines 847--851
 
  []
 
 <figures/feyn-q-in.pdf, id=1133, 106.60027pt x 41.99991pt>
 File: figures/feyn-q-in.pdf Graphic file (type pdf)
 <use figures/feyn-q-in.pdf>
-Package pdftex.def Info: figures/feyn-q-in.pdf  used on input line 847.
+Package pdftex.def Info: figures/feyn-q-in.pdf  used on input line 854.
 (pdftex.def)             Requested size: 106.59999pt x 41.9998pt.
 
-Overfull \hbox (21.24173pt too wide) in paragraph at lines 847--847
+Overfull \hbox (21.24173pt too wide) in paragraph at lines 854--854
 []|[]| 
  []
 
 
-Overfull \hbox (8.41972pt too wide) in paragraph at lines 847--847
+Overfull \hbox (8.41972pt too wide) in paragraph at lines 854--854
 []|$\OML/npxmi/m/it/10 u\LMS/npxsy/m/n/10 ¹\OML/npxmi/m/it/10 p; s\LMS/npxsy/m/n/10 º$| 
  []
 
 <figures/feyn-q-out.pdf, id=1134, 106.60027pt x 41.99991pt>
 File: figures/feyn-q-out.pdf Graphic file (type pdf)
 <use figures/feyn-q-out.pdf>
-Package pdftex.def Info: figures/feyn-q-out.pdf  used on input line 849.
+Package pdftex.def Info: figures/feyn-q-out.pdf  used on input line 856.
 (pdftex.def)             Requested size: 106.59999pt x 41.9998pt.
 
-Overfull \hbox (21.24173pt too wide) in paragraph at lines 849--849
+Overfull \hbox (21.24173pt too wide) in paragraph at lines 856--856
 []|[]| 
  []
 
 
-Overfull \hbox (8.41972pt too wide) in paragraph at lines 849--849
+Overfull \hbox (8.41972pt too wide) in paragraph at lines 856--856
 []|$[]\LMS/npxsy/m/n/10 ¹\OML/npxmi/m/it/10 p; s\LMS/npxsy/m/n/10 º$| 
  []
 
 <figures/feyn-glu-out.pdf, id=1135, 106.60027pt x 52.00027pt>
 File: figures/feyn-glu-out.pdf Graphic file (type pdf)
 <use figures/feyn-glu-out.pdf>
-Package pdftex.def Info: figures/feyn-glu-out.pdf  used on input line 852.
+Package pdftex.def Info: figures/feyn-glu-out.pdf  used on input line 859.
 (pdftex.def)             Requested size: 106.59999pt x 52.00012pt.
 
-Overfull \hbox (21.24173pt too wide) in paragraph at lines 852--852
+Overfull \hbox (21.24173pt too wide) in paragraph at lines 859--859
 []|[]| 
  []
 
 
-Overfull \hbox (13.45004pt too wide) in paragraph at lines 852--852
+Overfull \hbox (13.45004pt too wide) in paragraph at lines 859--859
 []|$\OML/npxmi/m/it/10 "[]\LMS/npxsy/m/n/10 ¹\OML/npxmi/m/it/10 k; ^^U\LMS/npxsy/m/n/10 º$| 
  []
 
 <figures/feyn-vertex.pdf, id=1136, 116.59961pt x 91.99971pt>
 File: figures/feyn-vertex.pdf Graphic file (type pdf)
 <use figures/feyn-vertex.pdf>
-Package pdftex.def Info: figures/feyn-vertex.pdf  used on input line 855.
+Package pdftex.def Info: figures/feyn-vertex.pdf  used on input line 862.
 (pdftex.def)             Requested size: 116.59932pt x 91.99948pt.
 
-Overfull \hbox (31.24106pt too wide) in paragraph at lines 855--855
+Overfull \hbox (31.24106pt too wide) in paragraph at lines 862--862
 []|[]| 
  []
 
 
-Overfull \hbox (20.8595pt too wide) in paragraph at lines 855--855
+Overfull \hbox (20.8595pt too wide) in paragraph at lines 862--862
 []|$\LMS/npxsy/m/n/10 ^^@\OML/npxmi/m/it/10 igT[]^^M[]$| 
  []
 
 [21
 
  <./figures/feyn-Pqq.pdf> <./figures/feyn-q-in.pdf> <./figures/feyn-q-out.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 880--884
+Underfull \hbox (badness 10000) in paragraph at lines 887--891
 
  []
 
@@ -1621,196 +1621,203 @@ Underfull \hbox (badness 10000) in paragraph at lines 880--884
 
 [22{c:/texlive/2025/texmf-dist/fonts/enc/dvips/newpx/pxb-lms.enc} <./figures/feyn-glu-out.pdf> <./figures/feyn-vertex.pdf>]
 LaTeX Font Info:    Freeze math alphabet allocation in version normal.
-(Font)              Allocated math groups: 14 (local: 2) on input line 957.
+(Font)              Allocated math groups: 14 (local: 2) on input line 964.
 LaTeX Font Info:    Font shape `U/BOONDOX-calo/m/n' will be
-(Font)              scaled to size 10.0pt on input line 957.
+(Font)              scaled to size 10.0pt on input line 964.
 LaTeX Font Info:    Font shape `U/BOONDOX-calo/m/n' will be
-(Font)              scaled to size 7.3pt on input line 957.
+(Font)              scaled to size 7.3pt on input line 964.
 LaTeX Font Info:    Font shape `U/BOONDOX-calo/m/n' will be
-(Font)              scaled to size 5.5pt on input line 957.
-LaTeX Font Info:    Undo math alphabet allocation in version normal on input line 958.
-LaTeX Font Info:    No math alphabet change to frozen version normal on input line 958.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 993.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 993.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 993.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 993.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 993.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 993.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 993.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 993.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 993.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 993.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 993.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 993.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 993.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 993.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 993.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 993.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 993.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 993.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 993.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 993.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 993.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 993.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 993.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 993.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 993.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 993.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 993.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 993.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 993.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 993.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 993.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 993.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 993.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 993.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 993.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 993.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 993.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 993.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 993.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 993.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 993.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 993.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 993.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 993.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 993.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 993.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 993.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 993.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 993.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 993.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 993.
-LaTeX Font Info:    Undo math alphabet allocation in version normal on input line 993.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1026.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1026.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1026.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1026.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1026.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1026.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1026.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1026.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1026.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1026.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1026.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1026.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1026.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1026.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1026.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1026.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1026.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1026.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1026.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1026.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1026.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1026.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1026.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1026.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1026.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1026.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1026.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1026.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1026.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1026.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1026.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1026.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1026.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1026.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1026.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1026.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1026.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1026.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1026.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1026.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1026.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1026.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1026.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1026.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1026.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1026.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1026.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1026.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1026.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1026.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1026.
-LaTeX Font Info:    Undo math alphabet allocation in version normal on input line 1026.
-LaTeX Font Info:    No math alphabet change to frozen version normal on input line 1029.
-LaTeX Font Info:    No math alphabet change to frozen version normal on input line 1031.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1039.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1039.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1039.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1039.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1039.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1039.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1039.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1039.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1039.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1039.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1039.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1039.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1039.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1039.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1039.
-LaTeX Font Info:    Undo math alphabet allocation in version normal on input line 1039.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1043.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1043.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1043.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1043.
-LaTeX Font Info:    No math alphabet change to frozen version normal on input line 1045.
-LaTeX Font Info:    No math alphabet change to frozen version normal on input line 1045.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1047.
-LaTeX Font Info:    No math alphabet change to frozen version normal on input line 1047.
-LaTeX Font Info:    No math alphabet change to frozen version normal on input line 1048.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1049.
-LaTeX Font Info:    No math alphabet change to frozen version normal on input line 1049.
-LaTeX Font Info:    No math alphabet change to frozen version normal on input line 1053.
+(Font)              scaled to size 5.5pt on input line 964.
+LaTeX Font Info:    Undo math alphabet allocation in version normal on input line 965.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 965.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1000.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1000.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1000.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1000.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1000.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1000.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1000.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1000.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1000.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1000.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1000.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1000.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1000.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1000.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1000.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1000.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1000.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1000.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1000.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1000.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1000.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1000.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1000.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1000.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1000.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1000.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1000.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1000.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1000.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1000.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1000.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1000.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1000.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1000.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1000.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1000.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1000.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1000.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1000.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1000.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1000.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1000.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1000.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1000.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1000.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1000.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1000.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1000.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1000.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1000.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1000.
+LaTeX Font Info:    Undo math alphabet allocation in version normal on input line 1000.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1033.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1033.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1033.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1033.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1033.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1033.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1033.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1033.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1033.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1033.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1033.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1033.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1033.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1033.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1033.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1033.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1033.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1033.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1033.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1033.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1033.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1033.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1033.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1033.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1033.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1033.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1033.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1033.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1033.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1033.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1033.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1033.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1033.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1033.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1033.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1033.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1033.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1033.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1033.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1033.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1033.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1033.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1033.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1033.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1033.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1033.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1033.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1033.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1033.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1033.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1033.
+LaTeX Font Info:    Undo math alphabet allocation in version normal on input line 1033.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 1036.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 1038.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1046.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1046.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1046.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1046.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1046.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1046.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1046.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1046.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1046.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1046.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1046.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1046.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1046.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1046.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1046.
+LaTeX Font Info:    Undo math alphabet allocation in version normal on input line 1046.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1050.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1050.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1050.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1050.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 1052.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 1052.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1054.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 1054.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 1055.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1056.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 1056.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 1060.
 
 
 [23]
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1058.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1058.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1058.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1058.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1059.
-LaTeX Font Info:    Undo math alphabet allocation in version normal on input line 1061.
-LaTeX Font Info:    No math alphabet change to frozen version normal on input line 1061.
-LaTeX Font Info:    No math alphabet change to frozen version normal on input line 1063.
-LaTeX Font Info:    No math alphabet change to frozen version normal on input line 1063.
-LaTeX Font Info:    No math alphabet change to frozen version normal on input line 1064.
-LaTeX Font Info:    No math alphabet change to frozen version normal on input line 1064.
-LaTeX Font Info:    No math alphabet change to frozen version normal on input line 1064.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1064.
-LaTeX Font Info:    No math alphabet change to frozen version normal on input line 1064.
-LaTeX Font Info:    No math alphabet change to frozen version normal on input line 1065.
-LaTeX Font Info:    No math alphabet change to frozen version normal on input line 1067.
-LaTeX Font Info:    No math alphabet change to frozen version normal on input line 1067.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1077.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1077.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1077.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1077.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1077.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1077.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1077.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1077.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1077.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1077.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1077.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1077.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1077.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1077.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1077.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1077.
-LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1077.
-LaTeX Font Info:    No math alphabet change to frozen version normal on input line 1077.
-LaTeX Font Info:    No math alphabet change to frozen version normal on input line 1080.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1065.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1065.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1065.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1065.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1066.
+LaTeX Font Info:    Undo math alphabet allocation in version normal on input line 1068.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 1068.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 1070.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 1070.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 1071.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 1071.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 1071.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1071.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 1071.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 1072.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 1074.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 1074.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1084.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1084.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1084.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1084.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1084.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1084.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1084.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1084.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1084.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1084.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1084.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1084.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1084.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1084.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1084.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1084.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1084.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 1084.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 1086.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 1087.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1090.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1090.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1090.
+LaTeX Font Info:    Nested math: keeping math alphabet allocation in version normal on input line 1090.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 1092.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 1092.
 
 
 [24]
 
 [25]
-LaTeX Font Info:    No math alphabet change to frozen version normal on input line 1087.
-LaTeX Font Info:    No math alphabet change to frozen version normal on input line 1089.
-LaTeX Font Info:    No math alphabet change to frozen version normal on input line 1089.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 1102.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 1104.
+LaTeX Font Info:    No math alphabet change to frozen version normal on input line 1104.
 
 
 [26
@@ -1833,18 +1840,18 @@ Package logreq Info: Writing requests to 'memoire.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 28634 strings out of 467747
- 499145 string characters out of 5431120
- 1351074 words of memory out of 5000000
- 56801 multiletter control sequences out of 15000+600000
+ 28643 strings out of 467747
+ 499241 string characters out of 5431120
+ 1351246 words of memory out of 5000000
+ 56809 multiletter control sequences out of 15000+600000
  740390 words of font info for 190 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  83i,15n,131p,769b,2475s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2025/texmf-dist/fonts/type1/public/inconsolata/Inconsolata-zi4r.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/newpx/NewPXBMI.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/newpx/NewPXBMI_gnu.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/newpx/NewPXMI.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/newpx/NewPXMI_gnu.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/newpx/pxbsys.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/newpx/pxmiaX.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/newpx/pxsys.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/newtx/txexs.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/newpx/zplb.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/newpx/zplbi.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/newpx/zplr.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/newpx/zplri.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/boondox/zxxrw8a.pfb>
-Output written on out_dir/memoire.pdf (27 pages, 1312025 bytes).
+Output written on out_dir/memoire.pdf (27 pages, 1312437 bytes).
 PDF statistics:
- 1399 PDF objects out of 1440 (max. 8388607)
- 771 compressed objects within 8 object streams
- 102 named destinations out of 1000 (max. 500000)
+ 1402 PDF objects out of 1440 (max. 8388607)
+ 774 compressed objects within 8 object streams
+ 103 named destinations out of 1000 (max. 500000)
  351 words of extra memory for PDF output out of 10000 (max. 10000000)
 
