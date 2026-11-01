@@ -244,6 +244,40 @@
       \field{year}{2018}
       \keyw{thesis}
     \endentry
+    \entry{Peskin}{book}{}{}
+      \name{author}{2}{}{%
+        {{hash=e148b6b43275e52828b8df297254414c}{%
+           family={Peskin},
+           familyi={P\bibinitperiod},
+           given={Michael\bibnamedelima Edward},
+           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=cc0fe4ad0bcb2f8883e7f5e5b5287dd9}{%
+           family={Schroeder},
+           familyi={S\bibinitperiod},
+           given={Daniel\bibnamedelima V.},
+           giveni={D\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Westview Press}%
+      }
+      \strng{namehash}{bd0b09f9d4658a6110c7cf3ae280532f}
+      \strng{fullhash}{bd0b09f9d4658a6110c7cf3ae280532f}
+      \strng{fullhashraw}{bd0b09f9d4658a6110c7cf3ae280532f}
+      \strng{bibnamehash}{bd0b09f9d4658a6110c7cf3ae280532f}
+      \strng{authorbibnamehash}{bd0b09f9d4658a6110c7cf3ae280532f}
+      \strng{authornamehash}{bd0b09f9d4658a6110c7cf3ae280532f}
+      \strng{authorfullhash}{bd0b09f9d4658a6110c7cf3ae280532f}
+      \strng{authorfullhashraw}{bd0b09f9d4658a6110c7cf3ae280532f}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{\textit{Textbook on QFT, with an emphasis on the computations.}}
+      \field{note}{Reading, USA: Addison-Wesley (1995) 842 p}
+      \field{title}{{An Introduction to Quantum Field Theory}}
+      \field{year}{1995}
+      \keyw{sourcebook}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

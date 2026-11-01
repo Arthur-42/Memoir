@@ -14,8 +14,8 @@
 \contentsline {chapter}{\numberline {5}À déterminer+}{19}{chapter.5}%
 \contentsline {chapter}{Conclusion}{20}{chapter*.18}%
 \contentsline {chapter}{Annexes}{21}{chapter*.19}%
-\contentsline {section}{Annex A}{21}{chapter*.19}%
-\contentsline {chapter}{Bibliography}{23}{chapter*.20}%
-\contentsline {section}{Textbooks and lecture notes}{23}{chapter*.20}%
-\contentsline {section}{Thesis}{23}{chapter*.20}%
-\contentsline {section}{Articles}{23}{chapter*.20}%
+\contentsline {section}{\numberline {A}Computation of $P_{qq}(z)$}{21}{section.5.1}%
+\contentsline {chapter}{Bibliography}{24}{chapter*.21}%
+\contentsline {section}{Textbooks and lecture notes}{24}{chapter*.21}%
+\contentsline {section}{Thesis}{24}{chapter*.21}%
+\contentsline {section}{Articles}{24}{chapter*.21}%

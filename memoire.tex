@@ -17,6 +17,7 @@
 \usepackage[top=20mm, bottom=20mm, left=20mm, right=20mm]{geometry} % définit les marges
 \usepackage{array} % permet l'alignement vertical dans les tableaux
 \usepackage{setspace} % permet de régler l'interligne
+\usepackage{longtable}
 \onehalfspacing % définit l'interligne 1,5 par défaut
 
 \usepackage[osf]{newpxtext} % osf for text, not math
@@ -25,6 +26,7 @@
 \usepackage[bigdelims,vvarbb]{newpxmath} % bb from STIX
 \usepackage[cal=boondoxo]{mathalfa} % mathcal
 \usepackage{mathtools}
+\usepackage{mismath}
 
 \usepackage{xcolor}
 \definecolor{taucolor}{rgb}{0.0,0.2,0.4} 
@@ -811,8 +813,72 @@ Fonctionnement du code...
 
 \chapter*{Annexes}
 \addcontentsline{toc}{chapter}{Annexes}
-\section*{Annex A}
-\addcontentsline{toc}{section}{Annex A}
+
+\renewcommand{\thesection}{\Alph{section}}
+\numberwithin{equation}{section}
+\numberwithin{figure}{section}
+\section{Computation of $P_{qq}(z)$}
+
+Here, we compute the LO quark-quark splitting function.\\
+\textit{\textbf{Note : }This is the only explicit computation of a matrix element in this thesis. I deemed 
+it useful to include as it show how to get from the QFT basics one of the splitting functions, which are extensively 
+used in this thesis. It may also serve as a warm-up or dusting-off of the QFT computations skills of the reader (as it 
+surely has been for the author). This idea was taken from \cite{Lelek}, where the same is done for $P_{qg}(z)$.}\\
+
+The corresponding Feynman diagram is : 
+
+\begin{figure*}[h]
+    \centering
+    \includegraphics[width=\linewidth/2]{feyn-Pqq.pdf}
+		\caption{quark-quark splitting.}
+		\label{fig:feyn-Pqq}      
+\end{figure*}
+
+The quark momenta are taken to flow in the direction of the fermion arrows, while the momentum 
+of the gluon is taken to be outgoing, so $p'^\mu = p^\mu - k^\mu$. \\ 
+For the Feynman rules, we follow the convention of \cite{Peskin}. As a matter of fact, 
+the following computation shadows a similar one in Section 17.5 of \cite{Peskin}. \\ 
+
+\begin{longtable}[l]{ m{3cm} m{0.7cm} m {9cm} } 
+  \hline
+  \includegraphics{feyn-q-in.pdf} & $u(p,s)$ & Spinor of an incoming quark of momentum $p$ and spin $s$. \\ 
+  \hline
+  \includegraphics{feyn-q-out.pdf} & $\bar{u}(p,s)$ & Spinor of an outgoing quark 
+  of momentum $p$ and spin $s$. \\
+  \hline
+  \includegraphics{feyn-glu-out.pdf} & $\varepsilon^{*}_{\mu}(k,\lambda)$ & Polarisation quadrivector 
+  of an outgoing gluon of momentum $k$ and polarisation index $\lambda$.\\ 
+  \hline
+  \includegraphics{feyn-vertex.pdf} & $-igT_{ba}^A \gamma^{\mu}$ & Vertex for quarks of colour $a$ and $b$, and gluon 
+  of colour compound $A$, whose polarisation quadrivector carries $\mu$ indices. $g$ is the coupling constant, $T^A$ is 
+  a Gell-Mann matrix, and the $\gamma^{\mu}$ are the gamma-matrices. \\ 
+  \hline
+\end{longtable}
+
+The momenta are taken as follows (in the massless quark limit) : 
+
+\begin{equation}
+  p = (p,\,0,\,0,\,p) \quad ; \quad p' \approx (zp,\, p_{\perp},\, 0,\, zp) \quad ; 
+  \quad k \approx ((1-z)p,\, -p_{\perp},\, 0,\, (1-z)p) 
+  \label{app:momenta}
+\end{equation}
+
+That way, we have $p^2 = 0,\, p'^2 = 0 + \bigO(p_{\perp}^2), \, k^2 = 0 + \bigO(p_{\perp}^2)$, where 
+the outgoing quark and gluon are thus slightly off-shell. \textit{\textbf{Note : }the expansion of the 
+adimensionned quantity is actually in powers of $(p_{\perp}/p)$, so we only need $p_{\perp}<<p$.}\\
+If we want to better approximate the case of a real outgoing quark and virtual outgoing gluon, we may take 
+
+\begin{equation}
+  p' = \left(zp,\, p_{\perp},\, 0,\, zp - \frac{p_{\perp}^2}{2zp}\right) \quad ; \quad 
+  k = \left((1-z)p,\, -p_{\perp},\, 0,\, (1-z)p + \frac{p_{\perp}^2}{2zp}\right)
+\end{equation}
+
+With then $p'^2 = 0 + \bigO(p_{\perp}^4)$, $k^2 = -p_{\perp}^2/z + \bigO(p_{\perp}^4)$. The case of a real gluon and 
+virtual quark is obtained the same way by substituting $p_{\perp}^2/2zp \rightarrow p_{\perp}^2/2(1-z)p$ above. 
+Nevertheless, we will stick to the definitions at \ref{app:momenta} for the computation of the matrix element 
+as it yields the same result up to $\bigO(p_{\perp}^2)$ terms (thus $\bigO(p_{\perp}^3)$ terms for the squared matrix element).\\ 
+
+A fermion spinor $u(p,s)$ is represented by a 4-component column vector. 
 
 
 \newpage
