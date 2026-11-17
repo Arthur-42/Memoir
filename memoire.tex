@@ -155,7 +155,73 @@ references used here are \cite{cours1}, \cite{Halzen:1984mc}, \cite{Lelek}, \cit
 
 \section{Early results from electron-proton scattering}
 
+Let us pretend that we are in the first few decades of the 20th century: we know a bit about quantum 
+electrodynamics, but we still think of the proton as an elementary particle. We wish to learn more about it 
+by causing electron-proton scattering. With our QED background, we can check what to expect; here is the corresponding
+Feynman diagram : 
+
+\begin{figure*}[h!]
+  \centering
+  \includegraphics[width=0.6\linewidth]{feyn_dirac.pdf}
+  \caption[]{Electron - (naive) proton scattering}%\protect\footnotemark}
+	\label{fig:ps_dirac_cs}
+\end{figure*}
+%\footnotetext{Adapted from \url{https://wiki.physik.uzh.ch/cms/latex:feynman}}.
+
+Where $k, p$ denotes the incoming momenta, $s, \sigma$ the incoming helicities, and the same 
+with a prime (') are the outgoing quantities. We will review the computation only briefly, since 
+it is not the main topic of the current chapter, but it will nevertheless be interesting for following 
+matters. \\ 
+
+The matrix element here is the product of the leptonic current (the electron part), the hadronic current (the proton part), 
+and the photon propagator. We have (introducing a shorthand for later use) : 
+
+\begin{equation}
+  \mathcal{M} = \langle k',s' |\, J^e_{\mu}\, | k, s\rangle \frac{g_{\mu \nu}}{q^2} \langle p',\sigma' |\, J^p_{\nu}\, | p, \sigma\rangle \equiv \langle J^e_{\mu} \rangle 
+  \frac{g^{\mu \nu}}{q^2} \langle J^p_{\nu} \rangle
+\end{equation}
+
+With 
+
+\begin{align}
+  \langle J^e_{\mu} \rangle &= -ie\,\bar{u}(k',s')\,\gamma_{\mu}\,u(k,s) \\
+  \langle J^p_{\nu} \rangle &= ie\,\bar{u}(p',\sigma')\,\gamma_{\nu}\,u(p, \sigma)
+\end{align}
+% check sign !!!
+Expressed in terms of the fermion spinors $u$, the gamma matrices $\gamma$ and the charge (the coupling) $e$.
+
+For the full squared matrix element, we need to sum on all outgoing helicities, and average on all incoming ones.
+Then introducing the leptonic tensor $L^{\mu \nu}$ and similarly the hadronic tensor $W^{\mu \nu}$ : 
+
+\begin{equation}
+  L^{\mu \nu} = \frac{1}{2e^2}\sum_{s, s'} \langle J^{\mu}_e \rangle \langle J^{\nu}_e \rangle \quad ; 
+  \quad W^{\mu \nu} = \frac{1}{2e^2}\sum_{\sigma, \sigma'} \langle J^{\mu}_p \rangle \langle J^{\nu}_p \rangle
+\end{equation}
+
+We then have 
+
+\begin{equation}
+  \overline{|\mathcal{M}|^2} \equiv \frac{1}{4}\sum_{s, s', \sigma, \sigma'} |\mathcal{M}|^2 = \frac{e^4}{q^4} L^{\mu \nu} W_{\mu \nu}
+\end{equation}
+
+Working with the properties of the gamma matrices and the sum over polarisations of spinors, we can get to 
+
+\begin{align}
+  L^{\mu \nu} &= - 2(k'^{\mu}k^{\nu} + k^{\mu}k'^{\nu} - (k\cdot k' + m_e^2)g^{\mu \nu}) \\ 
+  W^{\mu \nu} &= - 2(p'^{\mu}p^{\nu} + p^{\mu}p'^{\nu} - (p\cdot p' + m_p^2)g^{\mu \nu})
+\end{align}
+
+Performing the tensorial product, and using that $p' = p + k - k'$ and that by neglecting the mass 
+of the electron we can take $q^2 = - 2 k\cdot k'$, we get : 
+
+\begin{equation}
+  \overline{|\mathcal{M}|^2} = \frac{8e^4}{q^4}\left(\frac{-q^2}{2}(k-k')\cdot p + 2(k\cdot p)(k' \cdot p) + \frac{m^2_p q^2}{2}\right)
+\end{equation}
+
 \section{Deep inelastic scattering}
+
+At higher energies (from several GeV on), the proton does not "survive" the scattering, and other particles are produced in its stead. 
+It also means that the process is sensitive to the inner structure of the proton.
  
 
 \newpage
@@ -833,7 +899,7 @@ Here, we compute the LO quark-quark splitting function.\\
 \textit{\textbf{Note : }This is the only explicit computation of a matrix element in this thesis. I deemed 
 it useful to include as it show how to get from the QFT basics one of the splitting functions, which are extensively 
 used in this thesis. It may also serve as a warm-up or dusting-off of the QFT computations skills of the reader (as it 
-surely has been for the author). This idea was taken from \cite{Lelek}, where the same is done for $P_{qg}(z)$.}\\
+surely has been for me). This idea was taken from \cite{Lelek}, where the same is done for $P_{qg}(z)$.}\\
 
 The corresponding Feynman diagram is : 
 
