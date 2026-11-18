@@ -36,7 +36,6 @@
 \usepackage{cleveref}
 \usepackage{bookmark}
 
-
 \newcommand{\figlabel}{{Fig.}}
 \newcommand{\figslabel}{{Figs.}}
 \newcommand{\tablabel}{{Table}}
@@ -155,9 +154,12 @@ references used here are \cite{cours1}, \cite{Halzen:1984mc}, \cite{Lelek}, \cit
 
 \section{Early results from electron-proton scattering}
 
+[Encore très proche de la référence, à restructurer]
+
 Let us pretend that we are in the first few decades of the 20th century: we know a bit about quantum 
 electrodynamics, but we still think of the proton as an elementary particle. We wish to learn more about it 
-by causing electron-proton scattering. With our QED background, we can check what to expect; here is the corresponding
+by causing electron-proton scattering. 
+With our QED background, we can check what to expect; here is the corresponding
 Feynman diagram : 
 
 \begin{figure*}[h!]
@@ -169,7 +171,7 @@ Feynman diagram :
 %\footnotetext{Adapted from \url{https://wiki.physik.uzh.ch/cms/latex:feynman}}.
 
 Where $k, p$ denotes the incoming momenta, $s, \sigma$ the incoming helicities, and the same 
-with a prime (') are the outgoing quantities. We will review the computation only briefly, since 
+with a prime (') are the outgoing quantities. We will review the computation of the "Dirac" cross section only briefly, since 
 it is not the main topic of the current chapter, but it will nevertheless be interesting for following 
 matters. \\ 
 
@@ -177,15 +179,15 @@ The matrix element here is the product of the leptonic current (the electron par
 and the photon propagator. We have (introducing a shorthand for later use) : 
 
 \begin{equation}
-  \mathcal{M} = \langle k',s' |\, J^e_{\mu}\, | k, s\rangle \frac{g_{\mu \nu}}{q^2} \langle p',\sigma' |\, J^p_{\nu}\, | p, \sigma\rangle \equiv \langle J^e_{\mu} \rangle 
-  \frac{g^{\mu \nu}}{q^2} \langle J^p_{\nu} \rangle
+  \mathcal{M} = \langle k',s' |\, J_e^{\mu}\, | k, s\rangle \frac{g_{\mu \nu}}{q^2} \langle p',\sigma' |\, J_p^{\nu}\, | p, \sigma\rangle \equiv \langle J_e^{\mu} \rangle 
+  \frac{g_{\mu \nu}}{q^2} \langle J_p^{\nu} \rangle
 \end{equation}
 
 With 
 
 \begin{align}
-  \langle J^e_{\mu} \rangle &= -ie\,\bar{u}(k',s')\,\gamma_{\mu}\,u(k,s) \\
-  \langle J^p_{\nu} \rangle &= ie\,\bar{u}(p',\sigma')\,\gamma_{\nu}\,u(p, \sigma)
+  \langle J_e^{\mu} \rangle &= -ie\,\bar{u}(k',s')\,\gamma^{\mu}\,u(k,s) \\
+  \langle J_p^{\nu} \rangle &= ie\,\bar{u}(p',\sigma')\,\gamma^{\nu}\,u(p, \sigma)
 \end{align}
 % check sign !!!
 Expressed in terms of the fermion spinors $u$, the gamma matrices $\gamma$ and the charge (the coupling) $e$.
@@ -194,14 +196,14 @@ For the full squared matrix element, we need to sum on all outgoing helicities, 
 Then introducing the leptonic tensor $L^{\mu \nu}$ and similarly the hadronic tensor $W^{\mu \nu}$ : 
 
 \begin{equation}
-  L^{\mu \nu} = \frac{1}{2e^2}\sum_{s, s'} \langle J^{\mu}_e \rangle \langle J^{\nu}_e \rangle \quad ; 
-  \quad W^{\mu \nu} = \frac{1}{2e^2}\sum_{\sigma, \sigma'} \langle J^{\mu}_p \rangle \langle J^{\nu}_p \rangle
+  L^{\mu \nu} = \frac{1}{2e^2}\sum_{s, s'} \langle J^{\mu}_e \rangle \langle J^{\nu}_e \rangle^{\dagger} \quad ; 
+  \quad W^{\mu \nu} = \frac{1}{2e^2}\sum_{\sigma, \sigma'} \langle J^{\mu}_p \rangle \langle J^{\nu}_p \rangle^{\dagger}
 \end{equation}
 
 We then have 
 
 \begin{equation}
-  \overline{|\mathcal{M}|^2} \equiv \frac{1}{4}\sum_{s, s', \sigma, \sigma'} |\mathcal{M}|^2 = \frac{e^4}{q^4} L^{\mu \nu} W_{\mu \nu}
+  \overline{|\mathcal{M}|^2} \equiv \frac{1}{4}\sum_{s, s', \sigma, \sigma'} |\mathcal{M}\mathcal{M}^{\dagger}| = \frac{e^4}{q^4} L^{\mu \nu} W_{\mu \nu}
 \end{equation}
 
 Working with the properties of the gamma matrices and the sum over polarisations of spinors, we can get to 
@@ -218,10 +220,103 @@ of the electron we can take $q^2 = - 2 k\cdot k'$, we get :
   \overline{|\mathcal{M}|^2} = \frac{8e^4}{q^4}\left(\frac{-q^2}{2}(k-k')\cdot p + 2(k\cdot p)(k' \cdot p) + \frac{m^2_p q^2}{2}\right)
 \end{equation}
 
+In the frame where the proton is at rest, we can also take the incoming elctron's momenta to be purely along the z axis, then to be diffused 
+with a zenithal angle $\theta$ (and an isotropic, so not quite interesting, azimuthal angle $\phi$). This yields the following 
+simplifications (with E the energy of the electron, whose mass is neglected) : 
+
+\begin{align}
+  p\cdot k &= m_pE \\ 
+  p\cdot k' &= m_pE' \\
+  k\cdot k' &= EE'(1-\cos\theta)
+\end{align}
+
+And as $p^2 = p'^2 = m_p^2 = (p+q)^2$ (elastic collision), we have $2p\cdot q = -q^2 \equiv Q^2$. Where we use $Q^2$ to 
+denote the virtuality of the photon (how much of-shell it is). This latter expression of the elasticity condition can 
+be rephrased as 
+
+\begin{equation}
+  E - E' = -\frac{q^2}{2m_p}
+\end{equation}
+
+And we can write our matrix element as
+
+\begin{equation}
+  \overline{|\mathcal{M}|^2} = \frac{16e^4}{q^4}EE'm_p^2\left(\cos^2(\theta/2) - \frac{q^2}{2m_p^2}\sin^2(\theta/2)\right)
+\end{equation}
+
+By multiplying with the flux $1/s = 1/2m_pE$ and introducing the phase space element, we get the 
+differential cross section, which can be put to the following form : 
+
+\begin{equation}
+  \frac{d^2\sigma_{Dirac}}{dE'd\Omega} = \frac{\alpha^2}{4E^2}\frac{\cos^2(\theta/2)}{\sin^4(\theta/2)}\left(1 - \frac{q^2}{2m^2_p}\tan^2(\theta/2)\right) \delta(E - E' +\frac{q^2}{2m_p^2})
+\end{equation}
+
+The prefactor is the classical Mott cross section
+
+\begin{equation}
+  \frac{d\sigma_{Mott}}{d\Omega} = \frac{\alpha^2}{4E^2}\frac{\cos^2(\theta/2)}{\sin^4(\theta/2)}
+\end{equation}
+
+While the term proportional to $\tan^2(\theta/2)$ is a quantum correction accounting for virtual photons ($q^2 \neq 0$) with 
+a longitudinal polarisation (which logically change the angular dependance of the differential cross section).\\ 
+
+This prediction is obtained by considering the proton as a punctual particle. What does the experiment say about this ? Well, 
+with scattering at the order of $10^2$ MeV, we can already see a notable deviation : 
+
+\begin{figure*}[h!]
+  \centering
+  \includegraphics[width=0.6\linewidth]{elascat.png}
+  \caption[]{"Electron scattering from the proton at an incident energy of 188 Mev" \cite{hofstadter1956}}
+	\label{fig:ps_elascat}
+\end{figure*}
+
+The dashed curves are our theoretical Mott and Dirac cross section, while the topmost solid one try to account for the 
+magnetic moment of the proton, but still considering it as a point particle. Clearly the experimental data deviate from all 
+of those. \\
+
+This deviation becomes visible at higher energy, because the spatial resolution is improved.
+Let us recall from quantum mechanics the de Broglie wavelength ($\lambdabar$). Spatial resolution 
+of $\Delta r$ can be probed provided that the wavelength of the interacting particle follows 
+
+\begin{equation}
+  \frac{\Delta r}{2\pi} = \lambdabar = \frac{\hbar}{p} \quad \Rightarrow \quad \Delta r = \frac{h}{p}
+\end{equation}
+
+With $p = \sqrt{E^2 - m^2 c^4}$, we have the ultrarelativistic limit $(E >> mc^2),\,p\approx E/c$, and the 
+high-virtuality limit $(E^2 << -m^2c^4),\,p \approx Q/c$. So 
+
+\begin{equation}
+  \Delta r = \frac{hc}{Q} = \frac{0.619}{Q[GeV]}[fm]
+\end{equation}
+
+And increasing the momentum transfer $Q$ allows to probe smaller details of the target. In this sense, the electron scattering 
+really acts like a microscope.\\
+
+Let us go back to the experiment depicted in \tabref{fig:ps_elascat}.
+At its energy scale, we become sensitive to the spatial extension of the proton : it is not seen as infinitesimal anymore. \\
+Indeed, this experimental result may be parametrised in terms of the electric and magnetic form factors 
+$(G_E(Q)\,\text{and}\,G_M(Q))$, the fourier transforms of the charge distribution : 
+
+\begin{equation}
+  \frac{d\sigma}{d\Omega} = \frac{d\sigma_{Mott}}{d\Omega}\frac{E'}{E}\left(\frac{|G_E(Q)|^2 + \tau |G_M(Q)|^2}{1+\tau} + 2\tau |G_M(Q)|^2\tan^2(\theta/2)\right)
+\end{equation}
+
+With $\tau \equiv Q^2/4m_p^2$. The form factors are typically parametrised as "dipole distributions" : 
+
+\begin{equation}
+  |G(Q)|_i \sim \frac{1}{(1 + Q^2/\mu_0^2)^2} \quad \text{with }\mu_0^2 \sim 0.71\,\text{GeV}^2
+\end{equation}
+
+Which is equivalent to a charge distribution going as $\rho(r) = \rho_0 e^{-\mu_0 r}$. The experiment thus allows to see how the charge 
+is distributed in the proton. But so far, we didn't learn why there is a nonconstant charge distribution in the proton. This question may lead 
+us to suspect that the proton is not fundamental (there were of course other experimental evidences of this, like its anomalous magnetic dipole moment). 
+To find its potential constituents, we would like to break it apart.
+
+
 \section{Deep inelastic scattering}
 
 At higher energies (from several GeV on), the proton does not "survive" the scattering, and other particles are produced in its stead. 
-It also means that the process is sensitive to the inner structure of the proton.
+Such a scattering process is said deeply inelastic.
  
 
 \newpage
@@ -1168,6 +1263,9 @@ But there is more to say about it. [discussion fonction de branchement compète]
 \printbibliography[heading=subbibintoc, keyword={sourcebook}, title={Textbooks and lecture notes}]
 \printbibliography[heading=subbibintoc, keyword={thesis}, title={Thesis}]
 \printbibliography[heading=subbibintoc, keyword={article}, title={Articles}]
+\defbibnote{specnote}{The following articles were cited, but only superficially used as they concern subjects 
+somewhat distant to this thesis. The aim was often to illustrate connex topics.}
+\printbibliography[heading=subbibintoc, prenote=specnote, keyword={addarticle}, title={Additional articles}]
 
 
 \end{document}

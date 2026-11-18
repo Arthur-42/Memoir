@@ -183,6 +183,49 @@
       \endverb
       \keyw{article}
     \endentry
+    \entry{hofstadter1956}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=b9c43f50788d8760784680e4bda2cb64}{%
+           family={Hofstadter},
+           familyi={H\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{b9c43f50788d8760784680e4bda2cb64}
+      \strng{fullhash}{b9c43f50788d8760784680e4bda2cb64}
+      \strng{fullhashraw}{b9c43f50788d8760784680e4bda2cb64}
+      \strng{bibnamehash}{b9c43f50788d8760784680e4bda2cb64}
+      \strng{authorbibnamehash}{b9c43f50788d8760784680e4bda2cb64}
+      \strng{authornamehash}{b9c43f50788d8760784680e4bda2cb64}
+      \strng{authorfullhash}{b9c43f50788d8760784680e4bda2cb64}
+      \strng{authorfullhashraw}{b9c43f50788d8760784680e4bda2cb64}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{\textit{An (old) paper on the experimental determination of nucleus charge densities}}
+      \field{issue}{3}
+      \field{journaltitle}{Rev. Mod. Phys.}
+      \field{month}{7}
+      \field{title}{Electron Scattering and Nuclear Structure}
+      \field{volume}{28}
+      \field{year}{1956}
+      \field{pages}{214\bibrangedash 254}
+      \range{pages}{41}
+      \verb{doi}
+      \verb 10.1103/RevModPhys.28.214
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/RevModPhys.28.214
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/RevModPhys.28.214
+      \endverb
+      \keyw{addarticle}
+    \endentry
     \entry{hj_lect}{unpublished}{}{}
       \name{author}{1}{}{%
         {{hash=76515796a875dbb4a37460fd38a132d8}{%
