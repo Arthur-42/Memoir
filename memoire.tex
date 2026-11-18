@@ -60,6 +60,7 @@
 \usepackage{graphicx}
 \usepackage{here}
 \graphicspath{{figures/}{./}} 
+\usepackage[format=plain,justification=centering]{caption}
 \usepackage{subcaption}
 
 \title{}
@@ -301,13 +302,18 @@ $(G_E(Q)\,\text{and}\,G_M(Q))$, the fourier transforms of the charge distributio
   \frac{d\sigma}{d\Omega} = \frac{d\sigma_{Mott}}{d\Omega}\frac{E'}{E}\left(\frac{|G_E(Q)|^2 + \tau |G_M(Q)|^2}{1+\tau} + 2\tau |G_M(Q)|^2\tan^2(\theta/2)\right)
 \end{equation}
 
-With $\tau \equiv Q^2/4m_p^2$. The form factors are typically parametrised as "dipole distributions" : 
+With $\tau \equiv Q^2/4m_p^2$. The data is fitted to some models for the form factors, from which 
+the charge density is extracted : 
 
-\begin{equation}
-  |G(Q)|_i \sim \frac{1}{(1 + Q^2/\mu_0^2)^2} \quad \text{with }\mu_0^2 \sim 0.71\,\text{GeV}^2
-\end{equation}
+\begin{figure*}[h!]
+  \centering
+  \includegraphics[width=0.6\linewidth]{protostruct.png}
+  \caption{Candidates for the proton charge density. The Yukawa model is rejected. \\
+  \textit{Taken from the same historical paper \cite{hofstadter1956}, more recent (and accurate) results abound}}
+	\label{fig:ps_protostruct}
+\end{figure*}
 
-Which is equivalent to a charge distribution going as $\rho(r) = \rho_0 e^{-\mu_0 r}$. The experiment thus allows to see how the charge 
+The experiment thus allows to see how the charge 
 is distributed in the proton. But so far, we didn't learn why there is a nonconstant charge distribution in the proton. This question may lead 
 us to suspect that the proton is not fundamental (there were of course other experimental evidences of this, like its anomalous magnetic dipole moment). 
 To find its potential constituents, we would like to break it apart.

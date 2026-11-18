@@ -246,14 +246,14 @@ INPUT c:/texlive/2025/texmf-dist/tex/latex/here/here.sty
 INPUT c:/texlive/2025/texmf-dist/tex/latex/here/here.sty
 INPUT c:/texlive/2025/texmf-dist/tex/latex/float/float.sty
 INPUT c:/texlive/2025/texmf-dist/tex/latex/float/float.sty
-INPUT c:/texlive/2025/texmf-dist/tex/latex/caption/subcaption.sty
-INPUT c:/texlive/2025/texmf-dist/tex/latex/caption/subcaption.sty
 INPUT c:/texlive/2025/texmf-dist/tex/latex/caption/caption.sty
 INPUT c:/texlive/2025/texmf-dist/tex/latex/caption/caption.sty
 INPUT c:/texlive/2025/texmf-dist/tex/latex/caption/caption3.sty
 INPUT c:/texlive/2025/texmf-dist/tex/latex/caption/caption3.sty
 INPUT c:/texlive/2025/texmf-dist/tex/latex/caption/ltcaption.sty
 INPUT c:/texlive/2025/texmf-dist/tex/latex/caption/ltcaption.sty
+INPUT c:/texlive/2025/texmf-dist/tex/latex/caption/subcaption.sty
+INPUT c:/texlive/2025/texmf-dist/tex/latex/caption/subcaption.sty
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/newpx/zpl-Regular-tosf-t1.tfm
 INPUT out_dir/memoire.aux
 INPUT out_dir/memoire.aux
@@ -416,6 +416,10 @@ INPUT ./figures/elascat.png
 INPUT ./figures/elascat.png
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/newpx/zpl-Regular-tosf-t1.tfm
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/newpx/zpl-Regular-tosf-t1.tfm
+INPUT ./figures/protostruct.png
+INPUT ./figures/protostruct.png
+INPUT ./figures/protostruct.png
+INPUT ./figures/protostruct.png
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/newpx/zpl-Italic-tosf-t1.tfm
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/newpx/zpl-BoldItalic-tosf-t1.tfm
 INPUT c:/texlive/2025/texmf-dist/fonts/vf/public/newpx/zplmi.vf
