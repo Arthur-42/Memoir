@@ -1,13 +1,13 @@
 # Fdb version 4
-["biber out_dir/memoire"] 1794990916.53377 "out_dir/memoire.bcf" "out_dir/memoire.bbl" "out_dir/memoire" 1794996448.06359 0
-  "out_dir/memoire.bcf" 1794996447 109867 b17ef42c9cddd8fc5cf09348dfe6972b "pdflatex"
+["biber out_dir/memoire"] 1795185665.51982 "out_dir/memoire.bcf" "out_dir/memoire.bbl" "out_dir/memoire" 1795273247.67497 0
+  "out_dir/memoire.bcf" 1795273247 109806 d283cf2fe49951f0619385ed20943608 "pdflatex"
   "sources.bib" 1794990915 3414 8d837acfb5b7bf3ccfb7bba39555a4a2 ""
   (generated)
   "out_dir/memoire.bbl"
   "out_dir/memoire.blg"
   (rewritten before read)
-["pdflatex"] 1794996444.39381 "c:/Users/arth4/OneDrive/Documents/A-Unif 5/Memoire/Thesis-clone/Memoir/memoire.tex" "out_dir/memoire.pdf" "memoire" 1794996448.06478 0
-  "c:/Users/arth4/OneDrive/Documents/A-Unif 5/Memoire/Thesis-clone/Memoir/memoire.tex" 1794996439 60510 91cb32deba5ac9a725cb084e1974b55b ""
+["pdflatex"] 1795273243.83035 "c:/Users/arth4/OneDrive/Documents/A-Unif 5/Memoire/Thesis-clone/Memoir/memoire.tex" "out_dir/memoire.pdf" "memoire" 1795273247.67665 0
+  "c:/Users/arth4/OneDrive/Documents/A-Unif 5/Memoire/Thesis-clone/Memoir/memoire.tex" 1795273242 74180 56f1c68932aac8399db968861bc249cc ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/inconsolata/i4-t1-5.enc" 1761846877 7709 74634db4a06477f35279f32281f87689 ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/newpx/px-lms.enc" 1761848498 3877 2ca811886181a05a861d20a35de75e06 ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/newpx/pxb-lms.enc" 1761848498 3874 ab0a1c2a52c765f4524ec573267464f8 ""
@@ -55,6 +55,7 @@
   "c:/texlive/2025/texmf-dist/fonts/tfm/public/newtx/txexs.tfm" 1761848510 1552 a4f9bb57de5b2864f3db1cb10ac7ad3a ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/public/newtx/txmiaSTbb.tfm" 1761848510 920 99acdf374993fd46fd345f9cac168080 ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1761843067 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
+  "c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb" 1761843067 36741 0ee9e374ec3e30da87cdfb0ea3575226 ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb" 1761843067 35469 dcf3a5f2fc1862f5952e3ee5eb1d98c4 ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1761843067 35752 024fb6c41858982481f6968b5fc26508 ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb" 1761843067 32726 39f0f9e62e84beb801509898a605dbd5 ""
@@ -232,6 +233,7 @@
   "figures/feyn-q-out.pdf" 1793513757 10128 18efe59cdc78a2639c82ec467f32a284 ""
   "figures/feyn-vertex.pdf" 1793518698 19842 506a42da36664feffc3c91edc84442c4 ""
   "figures/feyn_dirac.pdf" 1794853619 36255 616af08ab5908ac6d338940b06f06fc0 ""
+  "figures/feyn_dis.pdf" 1795071909 37605 f2d11b0964d3ea4b694b3f151fddcf38 ""
   "figures/genscalege.png" 1791457350 51706 4fbbbadb4500f35cad0b2c8cf1174226 ""
   "figures/genscalegz.png" 1791457350 57225 ec06657e5870af8bd556364740071006 ""
   "figures/genscaleqe.png" 1791457350 53211 c167c98872a3c68e211f72e679c8ec8b ""
@@ -255,11 +257,11 @@
   "figures/r-gluons-comp2.pdf" 1792326402 16841 62a079bf73d3e18e631d4e97a7fddd68 ""
   "figures/to-gg_kt_mms.pdf" 1791457350 22199 4cd9ae44b07dc199447859e46ac94697 ""
   "figures/to-qq_kt_mms.pdf" 1791457350 21562 1d0eb4f7321391b0c638df45240b8f96 ""
-  "memoire.tex" 1794996439 60510 91cb32deba5ac9a725cb084e1974b55b ""
-  "out_dir/memoire.aux" 1794996447 30265 06c5841f4003a6c2673d6202c2fc5482 "pdflatex"
-  "out_dir/memoire.bbl" 1794990918 13674 e3447248aaa5ea97e67894359962439c "biber out_dir/memoire"
-  "out_dir/memoire.run.xml" 1794996447 2387 0d900e23cc76bd02145d859dc12d3cf6 "pdflatex"
-  "out_dir/memoire.toc" 1794996447 1506 a4a6ab02c21183220dfc6f30532a0c78 "pdflatex"
+  "memoire.tex" 1795273242 74180 56f1c68932aac8399db968861bc249cc ""
+  "out_dir/memoire.aux" 1795273247 34281 054c3439a39ee799ec7e2004a31a0e87 "pdflatex"
+  "out_dir/memoire.bbl" 1795185668 13674 e3447248aaa5ea97e67894359962439c "biber out_dir/memoire"
+  "out_dir/memoire.run.xml" 1795273247 2387 0d900e23cc76bd02145d859dc12d3cf6 "pdflatex"
+  "out_dir/memoire.toc" 1795273247 1831 c06bd20224f7496cdce2ee5d9cead429 "pdflatex"
   (generated)
   "out_dir/memoire.aux"
   "out_dir/memoire.bcf"

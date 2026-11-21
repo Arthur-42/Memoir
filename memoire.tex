@@ -29,6 +29,7 @@
 \usepackage{mismath}
 \usepackage{bm}
 \usepackage{amsmath}
+\allowdisplaybreaks
 
 \usepackage{xcolor}
 \definecolor{taucolor}{rgb}{0.0,0.2,0.4} 
@@ -155,26 +156,25 @@ references used here are \cite{cours1}, \cite{Halzen:1984mc}, \cite{Lelek}, \cit
 
 \section{Early results from electron-proton scattering}
 
-[Encore très proche de la référence, à restructurer]
-
 Let us pretend that we are in the first few decades of the 20th century: we know a bit about quantum 
 electrodynamics, but we still think of the proton as an elementary particle. We wish to learn more about it 
-by causing electron-proton scattering. 
+by causing electron-proton scattering. At the present time, only $(E << m_p)$, with $E$ the energy of the electron 
+is available : we are in the elastic scattering regime.
 With our QED background, we can check what to expect; here is the corresponding
 Feynman diagram : 
 
 \begin{figure*}[h!]
   \centering
-  \includegraphics[width=0.6\linewidth]{feyn_dirac.pdf}
+  \includegraphics[width=0.5\linewidth]{feyn_dirac.pdf}
   \caption[]{Electron - (naive) proton scattering}%\protect\footnotemark}
 	\label{fig:ps_dirac_cs}
 \end{figure*}
 %\footnotetext{Adapted from \url{https://wiki.physik.uzh.ch/cms/latex:feynman}}.
 
 Where $k, p$ denotes the incoming momenta, $s, \sigma$ the incoming helicities, and the same 
-with a prime (') are the outgoing quantities. We will review the computation of the "Dirac" cross section only briefly, since 
-it is not the main topic of the current chapter, but it will nevertheless be interesting for following 
-matters. \\ 
+with a prime (') are the outgoing quantities. We will now review the most relevant steps of the computation
+of this cross-section (the Dirac cross section), 
+as they will also prove useful for later subjects. More details of the computation are deferred to \subsecref{subsec:diraccs}.\\ 
 
 The matrix element here is the product of the leptonic current (the electron part), the hadronic current (the proton part), 
 and the photon propagator. We have (introducing a shorthand for later use) : 
@@ -199,58 +199,83 @@ Then introducing the leptonic tensor $L^{\mu \nu}$ and similarly the hadronic te
 \begin{equation}
   L^{\mu \nu} = \frac{1}{2e^2}\sum_{s, s'} \langle J^{\mu}_e \rangle \langle J^{\nu}_e \rangle^{\dagger} \quad ; 
   \quad W^{\mu \nu} = \frac{1}{2e^2}\sum_{\sigma, \sigma'} \langle J^{\mu}_p \rangle \langle J^{\nu}_p \rangle^{\dagger}
+  \label{eq:tensors}
 \end{equation}
 
 We then have 
 
 \begin{equation}
   \overline{|\mathcal{M}|^2} \equiv \frac{1}{4}\sum_{s, s', \sigma, \sigma'} |\mathcal{M}\mathcal{M}^{\dagger}| = \frac{e^4}{q^4} L^{\mu \nu} W_{\mu \nu}
+  \label{eq:dirac_me1}
 \end{equation}
 
 Working with the properties of the gamma matrices and the sum over polarisations of spinors, we can get to 
 
 \begin{align}
-  L^{\mu \nu} &= - 2(k'^{\mu}k^{\nu} + k^{\mu}k'^{\nu} - (k\cdot k' + m_e^2)g^{\mu \nu}) \\ 
-  W^{\mu \nu} &= - 2(p'^{\mu}p^{\nu} + p^{\mu}p'^{\nu} - (p\cdot p' + m_p^2)g^{\mu \nu})
+  L^{\mu \nu} &= 2(k'^{\mu}k^{\nu} + k^{\mu}k'^{\nu} - (k\cdot k' - m_e^2)g^{\mu \nu}) \label{eq:ps_leptensor}\\ 
+  W^{\mu \nu} &= 2(p'^{\mu}p^{\nu} + p^{\mu}p'^{\nu} - (p\cdot p' - m_p^2)g^{\mu \nu})
+  \label{eq:ps_hadrtensor}
 \end{align}
 
-Performing the tensorial product, and using that $p' = p + k - k'$ and that by neglecting the mass 
-of the electron we can take $q^2 = - 2 k\cdot k'$, we get : 
+To get a result easier to interpret, it is useful to continue the computation in the rest frame of the proton. 
+In such a frame, we can also take the incoming electron's momentum to be purely along the z axis, then to be diffused 
+with a zenithal angle $\theta$. We have
 
 \begin{equation}
-  \overline{|\mathcal{M}|^2} = \frac{8e^4}{q^4}\left(\frac{-q^2}{2}(k-k')\cdot p + 2(k\cdot p)(k' \cdot p) + \frac{m^2_p q^2}{2}\right)
+  p = (m_p, 0, 0, 0) \quad;\quad
+  k = (E, 0, 0, E) \quad;\quad k' = (E', k'_x, k'_y, E'\cos\theta)
 \end{equation}
 
-In the frame where the proton is at rest, we can also take the incoming elctron's momenta to be purely along the z axis, then to be diffused 
-with a zenithal angle $\theta$ (and an isotropic, so not quite interesting, azimuthal angle $\phi$). This yields the following 
-simplifications (with E the energy of the electron, whose mass is neglected) : 
+Where the transverse momentum of the diffused electron $(k'_x, k'_y)$ will prove to be unimportant 
+in the following development. This parametrisation is especially useful for fixed target experiment, as 
+the angle $\theta$ is effectively the measurable scattering angle of the electron.\\
 
-\begin{align}
-  p\cdot k &= m_pE \\ 
-  p\cdot k' &= m_pE' \\
-  k\cdot k' &= EE'(1-\cos\theta)
-\end{align}
+It is important to note that, in the elastic regime, we take $p^2 = m_p^2 = p'^2$, and so 
+$p'^2 = (p+q)^2$ gives $2p\cdot q = -q^2$. We take this opportunity to introduce the virtuality $Q^2$ of the 
+photon : 
 
-And as $p^2 = p'^2 = m_p^2 = (p+q)^2$ (elastic collision), we have $2p\cdot q = -q^2 \equiv Q^2$. Where we use $Q^2$ to 
-denote the virtuality of the photon (how much of-shell it is). This latter expression of the elasticity condition can 
-be rephrased as 
+\begin{equation}
+  Q^2 \equiv -q^2
+\end{equation}
+
+Which is a positive quantity (contrary to $q^2$, as it can easily be seen in the proton rest frame, and is still true in all frames since 
+$q^2$ is a Lorentz invariant), which describes how off-shell the photon is. In the proton rest frame, as 
+$p\cdot q = m_p(E-E')$, we can write the elasticity condition as 
 
 \begin{equation}
   E - E' = -\frac{q^2}{2m_p}
 \end{equation}
 
-And we can write our matrix element as
+Eventually, and introducing the fine structure constant $\alpha = e^2/4\pi$, we get the following expression for the matrix element 
+(see \subsecref{subsec:diraccs}) :
 
 \begin{equation}
-  \overline{|\mathcal{M}|^2} = \frac{16e^4}{q^4}EE'm_p^2\left(\cos^2(\theta/2) - \frac{q^2}{2m_p^2}\sin^2(\theta/2)\right)
+  \overline{|\mathcal{M}|^2} = \frac{64(2\pi)^2 \alpha^2}{Q^4}EE'm_p^2\left(\cos^2(\theta/2) - \frac{q^2}{2m_p^2}\sin^2(\theta/2)\right)
+  \label{eq:ps_diracme2}
 \end{equation}
 
-By multiplying with the flux $1/s = 1/2m_pE$ and introducing the phase space element, we get the 
-differential cross section, which can be put to the following form : 
+To get to the cross section, we must introduce the flux $1/4(p\cdot k)$ and the 
+phase space element :
 
 \begin{equation}
-  \frac{d^2\sigma_{Dirac}}{dE'd\Omega} = \frac{\alpha^2}{4E^2}\frac{\cos^2(\theta/2)}{\sin^4(\theta/2)}\left(1 - \frac{q^2}{2m^2_p}\tan^2(\theta/2)\right) \delta(E - E' +\frac{q^2}{2m_p^2})
+  d\sigma_{Dirac} = \frac{1}{4m_p E}\overline{|\mathcal{M}|^2}\frac{d^3k'}{(2\pi)^3 2E'}\frac{d^3p'}{(2\pi)^3 2p'_0}
+  (2\pi)^4 \delta^{(4)}(p+k-k'-p')
 \end{equation}
+
+Since we are not looking at the proton final state, we will integrate its spatial momentum out, firstly 
+by noting that $\delta^{(4)}(p+k-k'-p') = \delta(E - E' + q^2/2m_p)\delta^{(3)}(\vec{p} + \vec{k} - \vec{k'} - \vec{p'})$.
+We have $p'_0 = m_p - q^2/2m_p$ that we will approximate by $p'_0 \approx m_p$ in the denominator of the phase space 
+element, as is valid in the elastic scattering regime, since we suppose that the energy transferable via the photon is 
+of smaller magnitude than the proton mass.\\ 
+As $d^3k' = E'^2dE'd\Omega$ and $Q^2 = 4EE'\sin^2(\theta/2)$, we have the differential cross section  : 
+
+\begin{align}
+  \frac{d^2\sigma_{Dirac}}{dE'd\Omega} &= \frac{4 \alpha^2}{Q^4} 
+   E'^2\left(\cos^2(\theta/2) - \frac{q^2}{2m_p^2}\sin^2(\theta/2)\right)
+   \delta(E - E' +\frac{q^2}{2m_p^2}) \nonumber\\
+  &= \frac{\alpha^2}{4E^2}\frac{\cos^2(\theta/2)}{\sin^4(\theta/2)}\left(1 - \frac{q^2}{2m^2_p}\tan^2(\theta/2)\right) \delta(E - E' +\frac{q^2}{2m_p^2})
+  \label{eq:dirac_cs}
+\end{align}
 
 The prefactor is the classical Mott cross section
 
@@ -266,7 +291,7 @@ with scattering at the order of $10^2$ MeV, we can already see a notable deviati
 
 \begin{figure*}[h!]
   \centering
-  \includegraphics[width=0.6\linewidth]{elascat.png}
+  \includegraphics[width=0.4\linewidth]{elascat.png}
   \caption[]{"Electron scattering from the proton at an incident energy of 188 Mev" \cite{hofstadter1956}}
 	\label{fig:ps_elascat}
 \end{figure*}
@@ -291,7 +316,7 @@ high-virtuality limit $(E^2 << -m^2c^4),\,p \approx Q/c$. So
 \end{equation}
 
 And increasing the momentum transfer $Q$ allows to probe smaller details of the target. In this sense, the electron scattering 
-really acts like a microscope.\\
+acts like a microscope.\\
 
 Let us go back to the experiment depicted in \tabref{fig:ps_elascat}.
 At its energy scale, we become sensitive to the spatial extension of the proton : it is not seen as infinitesimal anymore. \\
@@ -307,9 +332,9 @@ the charge density is extracted :
 
 \begin{figure*}[h!]
   \centering
-  \includegraphics[width=0.6\linewidth]{protostruct.png}
+  \includegraphics[width=0.5\linewidth]{protostruct.png}
   \caption{Candidates for the proton charge density. The Yukawa model is rejected. \\
-  \textit{Taken from the same historical paper \cite{hofstadter1956}, more recent (and accurate) results abound}}
+  \textit{Taken from the same historical paper \cite{hofstadter1956}; more recent (and accurate) results abound}}
 	\label{fig:ps_protostruct}
 \end{figure*}
 
@@ -322,8 +347,224 @@ To find its potential constituents, we would like to break it apart.
 \section{Deep inelastic scattering}
 
 At higher energies (from several GeV on), the proton does not "survive" the scattering, and other particles are produced in its stead. 
-Such a scattering process is said deeply inelastic.
+Such a scattering process is said deeply inelastic. Schematically, we are interested in the following : 
+
+\begin{figure*}[h!]
+  \centering
+  \includegraphics[width=0.4\linewidth]{feyn_dis.pdf}
+  \caption{Electron-proton DIS}
+	\label{fig:ps_feyndis}
+\end{figure*}
+
+The hadronic final state is typically quite messy, and we typically don't measure directly it's invariant mass, but 
+rather evaluate it through $X^2 = W^2 \equiv (q + p)^2 = q^2 + 2 p\cdot q + m_p^2$. We take the occasion to introduce 
+a notation for the following quantities (and recall their value in the proton rest frame)
+
+\begin{align}
+    \nu &\equiv p\cdot q \quad=\quad m_p(E - E') \\ 
+    x &\equiv \frac{Q^2}{2\nu} \quad=\quad \frac{Q^2}{2m_p(E' - E)} \\ 
+    y &\equiv \frac{\nu}{k\cdot p} \quad=\quad 1 - \frac{E'}{E} 
+\end{align}
  
+Then we have $0 \leq x,y \leq 1$, and we can write $W^2 = m_p^2 + Q^2(1-x)/x$. In the ultrarelativistic limit 
+(where $p^2 = m_p^2$ is neglected as $k^2 = m_e^2$ was already), we see that, with $s = (p+k)^2 \approx 2p \cdot k$ the 
+invariant mass of the system, we get 
+
+\begin{equation}
+  Q^2 \approx xys
+\end{equation}
+
+And so x and y together scale the relative importance of the momentum transfer. \\ 
+These relations do not follow the elasticity condition anymore, unless $x=1$ as it would indeed 
+yield $W^2 = m_p^2$.\\ 
+
+Let us now attempt to predict, or at least parametrise, the expected result. At this point, we don't expect 
+to see the proton as a point-like spin 1/2 particle, but rather as a potentially complex combination of yet unknown 
+constituent. This doesn't mean that we have to throw away all that we did so far. Let us look back at the steps that led 
+us to the Dirac cross section (\equref{eq:dirac_cs}), in particular the decomposition of the matrix element 
+in a leptonic and a hadronic tensor (\equref{eq:dirac_me1}). We can already see that the result for the leptonic tensor $L^{\mu \nu}$
+is still valid : nothing has changed in the electron side of the feynman diagram from \tabref{fig:ps_dirac_cs} to \tabref{fig:ps_feyndis}.
+We also know that the hadronic tensor $W_{\mu \nu}$ must be covariant, and as such it is not completely arbitrary. One can show 
+that in the unpolarised case (i.e. the initial state as an arbitrary helicity, so we average on all incoming helicities, as we did for 
+the Dirac cross section), the hadronic tensor can be parametrised with only two arbitrary functions $W_1(x, Q^2)$ and $W_2(x,Q^2)$ such that 
+the cross section becomes
+
+\begin{equation}
+  \frac{d\sigma}{dE'd\Omega} = \frac{\alpha^2}{2sE \sin^4(\theta/2)}\left(2\sin^2\left(\frac{\theta}{2}\right)\,W_1(x, Q^2) + \cos^2\left(\frac{\theta}{2}\right)\,W_2(x,Q^2)\right)
+  \label{eq:ps_cswithW}
+\end{equation}
+
+The demonstration is deferred to \subsecref{subsec:hadrotens} at the end of this chapter.
+
+\section{Appendices}
+
+\subsection{Computation of the matrix element for the Dirac cross section}
+\label{subsec:diraccs}
+
+Let us develop the computation of the Dirac cross section from \equref{eq:dirac_me1} and 
+the definition of the leptonic and hadronic tensors (\equref{eq:tensors}). Firstly, let us work 
+out the leptonic tensor. Since $\bar{u} \equiv u^\dagger \gamma^0$ and $(\gamma^{\mu})^\dagger (\gamma^0)^\dagger = 
+(\gamma^\mu)^\dagger \gamma^0 = \gamma^0 \gamma^\mu$, we have
+
+\begin{align}
+  L^{\mu \nu} &= \frac{1}{2}\sum_{s,s'}\left(-i\bar{u}(k',s')\,\gamma^{\mu}\,u(k,s)\right)
+  \left(-i\bar{u}(k',s')\,\gamma^{\mu}\,u(k,s)\right)^{\dagger} \nonumber\\ 
+  &= \frac{1}{2}\sum_{s,s'}(-i)\bar{u}(k',s')\,\gamma^{\mu}\,u(k,s)\,
+  i\,u^\dagger(k,s)\,(\gamma^{\mu})^\dagger\,(\gamma^0)^\dagger\,u(k',s') \nonumber\\ 
+  &= \frac{1}{2}\sum_{s,s'}\bar{u}(k',s')\,\gamma^{\mu}\,u(k,s)\,
+  \bar{u}(k,s)\,\gamma^{\mu}\,u(k',s') \nonumber \\ 
+  &= \frac{1}{2}\sum_{s,s'} \bar{u}(k',s')_a\,\gamma^{\mu}_{ab}\,u(k,s)_b\,
+  \bar{u}(k,s)_c\,\gamma^{\mu}_{cd}\,u(k',s')_d \nonumber \\ 
+  &= \frac{1}{2}\sum_{s,s'} u(k',s')_d\,\bar{u}(k',s')_a\,\gamma^{\mu}_{ab}\,u(k,s)_b\,
+  \bar{u}(k,s)_c\,\gamma^{\mu}_{cd}
+\end{align}
+
+Where in the last two lines, we explicitly put the matrix and vector indices, which are implicitly summed over. 
+This allowed to get the last line where we recognise the useful identity 
+
+\begin{equation}
+  \sum_{s} u(k,s)_a\,\bar{u}(k,s)_b = (k_{\rho}\gamma^{\rho} + m_e^2)_{ab}
+\end{equation}
+
+Thus we get
+
+\begin{equation}
+  L^{\mu \nu} = \frac{1}{2}Tr\left((k_{\rho}\gamma^{\rho} + m_e^2)\,\gamma^\mu\,
+  (k_{\sigma}\gamma^{\sigma} + m_e^2)\,\gamma^\nu\right)
+\end{equation}
+
+We have to use the properties of the trace of gamma matrices, notably that the trace of an 
+odd amount of gamma matrices is zero, that $Tr\left(\gamma^\rho\gamma^\mu\gamma^\sigma\gamma^\nu\right) = 
+4\left(g^{\rho \mu}g^{\sigma \nu} - g^{\rho \sigma}g^{\mu \nu} + g^{\rho \nu}g^{\mu \sigma}\right)$, 
+and that $Tr\left(\gamma^\mu\gamma^\nu\right) = 4g^{\mu \nu}$. Then
+
+\begin{align}
+  L^{\mu \nu} &= \frac{1}{2}k^\rho k^\sigma\, Tr\left(\gamma^\rho\gamma^\mu\gamma^\sigma\gamma^\nu\right) + \frac{1}{2}m_e^2\,Tr(\gamma^\mu \gamma^\nu) \nonumber \\
+  &= 2(k'^{\mu}k^{\nu} - (k\cdot k')g^{\mu \nu} + k^{\mu}k'^{\nu}) + 2m_e^2\,g^{\mu \nu} \nonumber \\
+  &= 2(k'^{\mu}k^{\nu} + k^{\mu}k'^{\nu} - (k\cdot k' - m_e^2)g^{\mu \nu})
+\end{align}
+
+As stated in \equref{eq:ps_leptensor}. It is straightforward to see that the expression of the hadronic tensor is analogously given 
+by \equref{eq:ps_hadrtensor}. Their contraction yields (knowing that $g^{\mu \nu}g_{\mu \nu} = 4$)
+
+\begin{align}
+  L^{\mu \nu}W_{\mu \nu} &= 4\Big[ 2(k\cdot p)(k'\cdot p') + 2(k'\cdot p)(k\cdot p') - 2(p\cdot p' - m_p^2)(k'\cdot k) \nonumber \\ 
+  &\quad \quad \, - 2(k\cdot k' - m_e^2)(p'\cdot p) + 4(k\cdot k' - m_e^2)(p\cdot p' - m_p^2) \Big] \nonumber\\ 
+  &= 8\Big[(k\cdot p)(k'\cdot p') + (k'\cdot p)(k\cdot p') - m_e^2(p\cdot p') -m_p^2(k\cdot k') +2m^2_e m_p^2 \Big]
+\end{align}
+
+Substituting $p' = p + k -k'$, and neglecting the mass of the electron (so that we can take $q^2 = (k-k')^2 = -2k\cdot k'$ as $k^2 = 0 = k'^2$), we 
+have for the matrix element 
+
+\begin{align}
+  \overline{|\mathcal{M}|^2} &= \frac{8e^4}{q^4}\left((k\cdot p)\,k'\cdot(p+k) + (k'\cdot p)\,k\cdot (p-k') + \frac{m^2_p q^2}{2}\right) \nonumber \\
+  &= \frac{8e^4}{q^4}\left( (k\cdot p)\left(\frac{-q^2}{2}\right) + (k'\cdot p)\left(\frac{q^2}{2}\right) + 2(k\cdot p)(k' \cdot p) + \frac{m^2_p q^2}{2}\right) \nonumber \\
+  &= \frac{8e^4}{q^4}\left(\frac{-q^2}{2}(k-k')\cdot p + 2(k\cdot p)(k' \cdot p) + \frac{m^2_p q^2}{2}\right)
+\end{align}
+
+In the rest frame of the proton, where thus $p(m_p, 0, 0, 0)$, we can also choose the axis to have 
+$k = (E, 0, 0, E)$ and $k' = (E', k'_x, k'_y, E'\cos\theta)$, so that we have
+
+\begin{align}
+  p\cdot k &= m_pE \\ 
+  p\cdot k' &= m_pE' \\
+  k\cdot k' &= EE'(1-\cos\theta) \\ 
+  p\cdot q &= m_p(E-E')
+\end{align}
+
+In the elastic regime we are interested in, we have $m_p^2 = p'^2 = (p+q)^2 = m_p^2 + 2p\cdot q + q^2$ and so 
+$E-E' = -q^2/2m_p$. Since also $q^2 = -2k\cdot k' = -2EE'(1-\cos\theta) = -4EE'\sin^2(\theta/2)$, we can write the 
+matrix element as
+
+\begin{align}
+  \overline{|\mathcal{M}|^2} &= \frac{8e^4}{q^4}\left(- \frac{q^2}{2}m_p(E-E') + 2m_p^2EE' + \frac{m_p^2q^2}{2}\right) \nonumber \\
+  &= \frac{16e^4}{q^4}EE'm_p^2\left(- \frac{q^2}{2}\frac{E-E'}{2m_p EE'} + 1 + \frac{q^2}{4EE'}\right) \nonumber \\
+  &= \frac{16e^4}{q^4}EE'm_p^2\left(- \frac{q^2}{2m_p^2}\sin^2(\theta/2) + 1 - \sin^2(\theta/2)\right) \nonumber \\
+  &= \frac{16e^4}{q^4}EE'm_p^2\left(\cos^2(\theta/2) - \frac{q^2}{2m_p^2}\sin^2(\theta/2)\right)
+\end{align}
+
+Introducing the fine structure constant through $\alpha = e^2/4\pi$ and the photon virtuality $Q^2 = -q^2$, we 
+indeed obtain \equref{eq:ps_diracme2}.\\
+
+
+\subsection{From the hadronic tensor to the structure functions}
+\label{subsec:hadrotens}
+
+Let us see what is the most general hadronic tensor $W_{\mu \nu}$ we can build, knowing that our only ingredient are
+the quadri-momenta $p^{\mu}, q^{\nu}$, the metric $g^{\mu \nu}$ and the invariants $x$ and $Q^2$. Let us note that we won't 
+consider terms proportional to a gamma matrix $\gamma^{\mu}$, as their contribution would vanish when averaging over helicities, as 
+stated before. So a priori, with $W_i$ arbitrary functions of $x$ and $Q^2$ only, we would get (with $m_p^2$ denominators to get dimensionless 
+quantities) :
+
+\begin{equation}
+  W_{\mu \nu} = -W_1 g_{\mu \nu} + \frac{W_2}{m^2_p}p_{\mu}p_{\nu} + \frac{W_3}{m^2_p}(p_{\mu}q_{\nu} + q_{\mu}p_{\nu})
+  +\frac{W_4}{m^2_p}(p_{\mu}q_{\nu} - q_{\mu}p_{\nu}) + \frac{W_5}{m^2_p}q_{\mu}q_{\nu} + \frac{W_6}{m^2_p}\varepsilon_{\mu \nu \rho \sigma}p^{\rho}q^{\sigma}
+\end{equation}
+
+Hadronic current conservation, stated through the Ward-Takahasi identity as $q^{\mu}W_{\mu \nu} = 0$ will further 
+restrict this expression. Let us also note that as the leptonic tensor is symmetric, contraction with the hadronic 
+tensor cancels its antisymmetric terms (those coming along with $W_4$ and $W_6$). Since they do not contribute to the interaction, we can 
+ignore them, both in the final expression of $W^{\mu \nu}$ and in the Ward-Takahashi identity that we develop here : 
+
+\begin{equation}
+  - W_1q_{\nu} + \frac{W_2}{m^2_p}(p\cdot q)p_{\nu} + \frac{W_3}{m^2_p}\left((p\cdot q)q_{\nu} + q^2 p_{\nu}\right) + \frac{W_5}{m^2_p}q^2q_{\nu} = 0
+\end{equation}
+
+Separating the terms proportional to $q_{\nu}$ and the ones proportional to $p_{\nu}$ (which must both vanish), we get the successive simplifications : 
+
+\begin{align}
+  W_3 &= -W_2\frac{p \cdot q}{q^2} \\ 
+  W_5 &= W_2\frac{(p\cdot q)^2}{q^4} + W_1\frac{m_p^2}{q^2}
+\end{align}
+
+And so the symmetric part of the hadronic tensor is
+
+\begin{align}
+  W_{\mu \nu} &= -W_1 g_{\mu \nu} + \frac{W_2}{m^2_p}p_{\mu}p_{\nu} 
+  - \frac{W_2}{m^2_p}\frac{p\cdot q}{q^2}\left(p_{\mu}q_{\nu} + q_{\mu}p_{\nu}\right) 
+  + W_2\left(\frac{p\cdot q}{q^2}\right)^2 q_\mu q_\nu + W_1\frac{q_\mu q_\nu}{q^2} \nonumber \\
+  &= \left(-g_{\mu \nu} + \frac{q_{\mu}q_{\nu}}{q^2}\right)W_1(x,Q^2) 
+  + \left(p_{\mu} - \frac{p\cdot q}{q^2}q_{\mu}\right)\left(p_{\nu} - \frac{p\cdot q}{q^2}q_{\nu}\right)\frac{W_2(x,Q^2)}{m^2_p}
+\end{align}
+
+Contracting with the leptonic tensor (while neglecting the electron mass, and thus 
+$k\cdot k' = k\cdot (k-q) = -k\cdot q = -q^2/2$ as $(k+q)^2 = k'^2 = 0$), we get
+
+\begin{equation}
+  L^{\mu \nu}W_{\mu \nu} = 4k\cdot k' W_1(x,Q^2) + \left(4(p\cdot k)(p\cdot k') - 2m^2_p k\cdot k'\right)\frac{W_2(x,Q^2)}{m^2_p}
+\end{equation}
+
+In the proton rest frame, the matrix element is expressed as
+
+\begin{align}
+  \overline{|\mathcal{M}|^2} &= \frac{(4\pi)^2 \alpha^2}{q^4}
+  \Bigg(8EE'\sin^2(\theta/2)W_1 + \left(4EE' -4EE'\sin^2(\theta/2)\right)W_2\Bigg)\nonumber \\ 
+  &= \frac{4\pi^2 \alpha^2}{EE'\sin^4(\theta/2)}\left(2\sin^2\left(\frac{\theta}{2}\right)\,W_1(x, Q^2) + \cos^2\left(\frac{\theta}{2}\right)\,W_2(x,Q^2)\right)
+  \label{eq:ps_ap_me1}
+\end{align}
+
+For the cross section, we will need the phase space element of the final hadronic state : 
+
+\begin{equation}
+  d\Phi_X \equiv (2\pi)^4 \delta^{(4)}(p+q - p_X)\sum_{i=1}^{N_X}\frac{d^3p_i}{(2\pi)^3 2E_i}
+\end{equation}
+
+The integral (over the momenta) of this $N_X\text{-body}$ phase space element is Lorentz invariant, 
+and we can formally redefine the hadronic tensor to englobe it : the properties of the phase space element 
+are absorbed in the redefinition of $W_1$ and $W_2$. Pragmatically, we redefine the hadronic tensor to be
+
+\begin{equation}
+  W'_{\mu \nu} = 4\pi\int d\Phi_X W_{\mu \nu}
+\end{equation}
+
+And so, considering how \equref{eq:ps_ap_me1} accounted for $W_{\mu \nu}$, the 
+differential cross section can be written as
+
+\begin{align}
+  \frac{d\sigma}{dE'd\Omega} &= \frac{1}{4m_pE}4\pi\overline{|\mathcal{M}|^2}\frac{E'^2}{(2\pi)^3 2E'} \nonumber \\ 
+  &= \frac{\alpha^2}{4m_p E^2\sin^4(\theta/2)}\left(2\sin^2\left(\frac{\theta}{2}\right)\,W_1(x, Q^2) + \cos^2\left(\frac{\theta}{2}\right)\,W_2(x,Q^2)\right)
+\end{align}
+
 
 \newpage
 
@@ -997,10 +1238,10 @@ Fonctionnement du code...
 \section{Computation of $P_{qq}(z)$}
 
 Here, we compute the LO quark-quark splitting function.\\
-\textit{\textbf{Note : }This is the only explicit computation of a matrix element in this thesis. I deemed 
-it useful to include as it show how to get from the QFT basics one of the splitting functions, which are extensively 
-used in this thesis. It may also serve as a warm-up or dusting-off of the QFT computations skills of the reader (as it 
-surely has been for me). This idea was taken from \cite{Lelek}, where the same is done for $P_{qg}(z)$.}\\
+%\textit{\textbf{Note : }This is the only explicit computation of a matrix element in this thesis. I deemed 
+%it useful to include as it show how to get from the QFT basics one of the splitting functions, which are extensively 
+%used in this thesis. It may also serve as a warm-up or dusting-off of the QFT computations skills of the reader (as it 
+%surely has been for me). This idea was taken from \cite{Lelek}, where the same is done for $P_{qg}(z)$.}\\
 
 The corresponding Feynman diagram is : 
 
@@ -1202,7 +1443,7 @@ Separating with respect to the helicities (let us recall that the helicity is co
 This interaction is invariant under parity change, so the matrix elements are the same under 
 $L \leftrightarrow R$, and thus we already know the results for right-handed quarks.\\ 
 We can move on to the calculation of the squared matrix element. We sum on the outgoing
-colours and helicities, and average on the incoming ones. The averaging yields a $1/6$ prefactor (one over 2 helicities 
+colours and helicities, and average on the incoming ones. The averaging yields a $1/6$ prefactor (1 over 2 helicities 
 times 3 quark colours). We have
 
 \begin{align}
